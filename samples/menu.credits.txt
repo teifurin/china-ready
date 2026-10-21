@@ -1,0 +1,5 @@
+Foo Lam Chinese Restaurant, Seattle — menu photographed 2023-08-26 by Gayest Frogs.
+Source: https://commons.wikimedia.org/wiki/File:20230826_125609_Foo_Lam_Chinese_Restaurant.jpg
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+https://creativecommons.org/licenses/by-sa/4.0/
+The file samples/menu.jpg is a 960px preview of that photograph, used only as a real Chinese-menu sample for photo translation.

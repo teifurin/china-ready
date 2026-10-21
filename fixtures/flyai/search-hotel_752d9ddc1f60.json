@@ -1,0 +1,100 @@
+{
+ "fetchedAt": "2026-10-20T08:55:20.966Z",
+ "command": "search-hotel",
+ "args": {
+  "dest-name": "西安",
+  "poi-name": "西安城墙永宁门城楼",
+  "hotel-types": "酒店",
+  "check-in-date": "2026-12-06",
+  "check-out-date": "2026-12-07"
+ },
+ "response": {
+  "data": {
+   "itemList": [
+    {
+     "address": "北大街88号 地铁1/2号线北大街站B出口南100米",
+     "brandName": "途窝",
+     "commissionMoneyYuan": null,
+     "decorationTime": "2025-10-21",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0m9NPZ",
+     "interestsPoi": "近西安钟楼",
+     "latitude": "34.266785",
+     "longitude": "108.946503",
+     "mainPic": "https://img.alicdn.com/imgextra/i1/6000000002081/O1CN01I52zUc6aK2C54Cn2_!!6000000002081-2-hotel.png",
+     "name": "TOWO上品酒店(西安钟楼地铁站店)",
+     "price": "¥3xx",
+     "rate": null,
+     "shId": "10066582",
+     "star": "高档型"
+    },
+    {
+     "address": "西安市新城区案板街18号",
+     "brandName": "锦江",
+     "commissionMoneyYuan": null,
+     "decorationTime": "2017",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F4azn4J",
+     "interestsPoi": "近西安钟楼",
+     "latitude": "34.260872",
+     "longitude": "108.950348",
+     "mainPic": "https://img.alicdn.com/imgextra/i1/6000000001493/O1CN01ntb6dh1MtqQe8Aj7T_!!6000000001493-2-hotel.png",
+     "name": "维也纳酒店(西安钟楼店)",
+     "price": "¥1xx",
+     "rate": null,
+     "shId": "53239434",
+     "star": "舒适型"
+    },
+    {
+     "address": "南门外珠江时代广场A座艾斯汀国际公寓A1419（前台暂时在1400）",
+     "brandName": "菲住",
+     "commissionMoneyYuan": null,
+     "decorationTime": "2020",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F04QAeJ",
+     "interestsPoi": "近西安钟楼",
+     "latitude": "34.24904",
+     "longitude": "108.948257",
+     "mainPic": "https://img.alicdn.com/imgextra/i2/6000000005445/O1CN01N3dZlI1q5rD0jJRZp_!!6000000005445-0-hotel.jpg",
+     "name": "遇见时光公寓(西安钟鼓楼城墙永宁门地铁站店)",
+     "price": "¥5xx",
+     "rate": null,
+     "shId": "60718450",
+     "star": "经济型"
+    },
+    {
+     "address": "北大街宏府嘉会广场C座1016室，钟楼地铁站A口出30米，紧邻回民街，距离古城墙5分钟",
+     "brandName": "菲住",
+     "commissionMoneyYuan": null,
+     "decorationTime": "2024-10-31",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3H0yOK",
+     "interestsPoi": "近西安钟楼",
+     "latitude": "34.263281",
+     "longitude": "108.94663",
+     "mainPic": "https://img.alicdn.com/imgextra/i3/6000000004504/O1CN01uzRLgN1j8t0nE8Vt3_!!6000000004504-2-hotel.png",
+     "name": "西安金树酒店(钟鼓楼回民街地铁站店)",
+     "price": "¥7x",
+     "rate": null,
+     "shId": "10077916",
+     "star": "经济型"
+    },
+    {
+     "address": "西安市碑林区大差市十字西南角万达新天地第1幢1单元11层11110号房",
+     "brandName": null,
+     "commissionMoneyYuan": null,
+     "decorationTime": "2024-01-31",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2dj1lE",
+     "interestsPoi": "近西安钟楼",
+     "latitude": "34.258683",
+     "longitude": "108.962144",
+     "mainPic": "https://img.alicdn.com/imgextra/i4/6000000004866/O1CN018IUcz91logGZpwnLz_!!6000000004866-0-hotel.jpg",
+     "name": "西安叶子精品酒店(钟楼地铁站店)",
+     "price": "¥2xx",
+     "rate": null,
+     "shId": "51476199",
+     "star": "经济型"
+    }
+   ]
+  },
+  "message": "success",
+  "status": 0,
+  "systemMessage": "*当前为体验模式，部分搜索结果可能受限，请前往 [飞猪AI开放平台](https://flyai.open.fliggy.com/) 获取正式API Key解锁完整服务。*"
+ }
+}

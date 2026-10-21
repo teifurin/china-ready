@@ -1,0 +1,132 @@
+{
+ "fetchedAt": "2026-10-20T08:55:15.037Z",
+ "command": "search-hotel",
+ "args": {
+  "dest-name": "杭州",
+  "poi-name": "雷峰塔",
+  "hotel-types": "酒店",
+  "check-in-date": "2026-11-09",
+  "check-out-date": "2026-11-10"
+ },
+ "response": {
+  "data": {
+   "itemList": [
+    {
+     "address": "杭州市西湖区虎跑路四眼井224号",
+     "brandName": null,
+     "commissionMoneyYuan": null,
+     "decorationTime": "2020",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F12dVhV",
+     "interestsPoi": "近杭州少年儿童公园",
+     "latitude": "30.217233",
+     "longitude": "120.136372",
+     "mainPic": "https://img.alicdn.com/imgextra/i1/6000000004806/O1CN01yng1XN1lNCa1mVuOG_!!6000000004806-2-hotel.png",
+     "name": "Zsmart智尚酒店(杭州西湖虎跑路雷峰塔景区店)",
+     "price": "¥1xx",
+     "rate": null,
+     "shId": "64174054",
+     "star": "经济型"
+    },
+    {
+     "address": "四宜路10号",
+     "brandName": null,
+     "commissionMoneyYuan": null,
+     "decorationTime": "2018",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1rCEYe",
+     "interestsPoi": "近四宜路小区",
+     "latitude": "30.235143",
+     "longitude": "120.161606",
+     "mainPic": "https://img.alicdn.com/imgextra/i4/6000000007546/O1CN01QwQaP525c7o8g7Pi4_!!6000000007546-2-hotel.png",
+     "name": "山涧月色酒店(杭州西湖吴山广场地铁站店)",
+     "price": "¥1xx",
+     "rate": null,
+     "shId": "53653020",
+     "star": "经济型"
+    },
+    {
+     "address": "上城区惠民路81号",
+     "brandName": null,
+     "commissionMoneyYuan": null,
+     "decorationTime": "2024-03-20",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F32N3Id",
+     "interestsPoi": "近杭州西湖风景名胜区",
+     "latitude": "30.2424203",
+     "longitude": "120.164695",
+     "mainPic": "https://img.alicdn.com/imgextra/i2/6000000003497/O1CN01ZAKYeT1bhg85ADuGu_!!6000000003497-2-hotel.png",
+     "name": "汉庭杭州西湖湖滨吴山广场酒店",
+     "price": "¥2xx",
+     "rate": null,
+     "shId": "10613102",
+     "star": "经济型"
+    },
+    {
+     "address": "玉皇山莲花峰路37号（丝绸博物馆处右转200米），近雷峰塔、西湖、虎跑、太子湾公园",
+     "brandName": null,
+     "commissionMoneyYuan": null,
+     "decorationTime": "2016-09-01",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F02ompN",
+     "interestsPoi": "近太子湾公园",
+     "latitude": "30.220989",
+     "longitude": "120.147835",
+     "mainPic": "https://img.alicdn.com/imgextra/i2/6000000000968/O1CN01QuzhQQ1J1OUzcvml5_!!6000000000968-2-hotel.png",
+     "name": "蓝天清水湾国际大酒店",
+     "price": "¥2xx",
+     "rate": null,
+     "shId": "10020097",
+     "star": "豪华型"
+    },
+    {
+     "address": "莲花峰路8号2幢",
+     "brandName": null,
+     "commissionMoneyYuan": null,
+     "decorationTime": "2026-09-01",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3PqyIY",
+     "interestsPoi": "近太子湾公园",
+     "latitude": "30.221832",
+     "longitude": "120.15177",
+     "mainPic": "https://img.alicdn.com/imgextra/i3/6000000004903/O1CN01YTpBvyBPHdB2vGz2_!!6000000004903-2-hotel.png",
+     "name": "西湖南岸Villa酒店",
+     "price": "¥5xx",
+     "rate": null,
+     "shId": "91366422",
+     "star": "高档型"
+    },
+    {
+     "address": "清波街道河坊街388号（近中国美院南山路校区和雷峰塔景区）",
+     "brandName": null,
+     "commissionMoneyYuan": null,
+     "decorationTime": "2026-07-05",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3gfigP",
+     "interestsPoi": "近杭州湖滨银泰in77",
+     "latitude": "30.239709",
+     "longitude": "120.162798",
+     "mainPic": "https://img.alicdn.com/imgextra/i3/6000000004214/O1CN01vp20Pk1h04B5wV4kV_!!6000000004214-0-hotel.jpg",
+     "name": "全季杭州西湖湖滨吴山广场酒店(新品5.0晓山青）",
+     "price": "¥3xx",
+     "rate": null,
+     "shId": "90712387",
+     "star": "高档型"
+    },
+    {
+     "address": "浙江杭州上城区延安路42号",
+     "brandName": null,
+     "commissionMoneyYuan": null,
+     "decorationTime": "2026-03-01",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2rfT9I",
+     "interestsPoi": "近杭州西湖风景名胜区",
+     "latitude": "30.241879",
+     "longitude": "120.164994",
+     "mainPic": "https://img.alicdn.com/imgextra/i3/O1CN01sozivf1rzZVkFc6Ik_!!4611686018427385414-0-fliggy_content_upload_image.jpg",
+     "name": "花鸣涧·深睡小屋酒店",
+     "price": "¥2xx",
+     "rate": null,
+     "shId": "89778101",
+     "star": "经济型"
+    }
+   ]
+  },
+  "message": "success",
+  "status": 0,
+  "systemMessage": "*当前为体验模式，部分搜索结果可能受限，请前往 [飞猪AI开放平台](https://flyai.open.fliggy.com/) 获取正式API Key解锁完整服务。*"
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "fetchedAt": "2026-10-20T08:55:23.762Z",
+ "command": "search-poi",
+ "args": {
+  "city-name": "上海",
+  "category": "城市观光"
+ },
+ "response": {
+  "data": {
+   "itemList": [
+    {
+     "address": "上海市黄浦区中山东二路481号B1层",
+     "category": "城市观光",
+     "description": "豪华水晶公主游船，外滩新体验。浦江游览时上海市的名优旅游品牌，多年来一只吸引着国内外游客。正如人们常说，不到长城非好汉，而到上海不坐船游览一下黄浦江，也会让人觉得很遗憾。档你惬意地在龙船之上一沐江风时，也可以将世博风光尽收眼底，两岸美景一览无余。黄浦江上唯一的派对场所，这里有丰富的自助餐尽请享用.。日落黄昏，清新的江风拂面，手持美酒，何等美哉。 　　等夜幕降临，请您一起加入我们的世博狂欢夜！在国家主题馆日的活动，为您呈现极具各国特色的狂欢嘉年华。 　　水晶公主就是一个流动的世博馆，也是一个水上的主题馆。 　　外滩世界各国建筑群和浦东的风景线令你目不暇接的同时，勿忘给你的味蕾增添一抹国际色彩。 　水晶公主船上的厨师们厨艺精湛，来自世界各地的美食和美酒将一并呈现，一定能为您的龙船体验增色不少。龙船上的自助餐也不容错过，各国菜色精彩汇聚，堪称世界美食盛会。 　　金色的彩霞渐渐退去，深蓝色帷幔慢慢爬上了璀璨的摩天大楼，龙船启航，甲板上彩灯零星地点缀，一个餐桌，两把参议没微弱的烛光随风跳动，你爱的人，爱你的人，微笑中，甜蜜中，品尝着美食与爱。相信您已经迫及不待地想去体验这样一个令人难忘的夜晚。\n",
+     "freePoiStatus": "NOT_FREE",
+     "id": "32321143",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2roiDv",
+     "latitude": "31.227636",
+     "listRank": null,
+     "longitude": "121.498369",
+     "mainPic": "https://img.alicdn.com/imgextra/i3/6000000000002/O1CN01ITo6Xv1BsxVbmCx50_!!6000000000002-0-fliggyimage.jpg",
+     "name": "黄浦江游览",
+     "poiLevel": null,
+     "ticketInfo": {
+      "commissionMoneyYuan": null,
+      "itemId": "724771754295",
+      "price": "¥1xx",
+      "priceDate": null,
+      "rate": null,
+      "skuCommissionStruct": null,
+      "ticketName": "夜游船票（精华游） 成人票"
+     }
+    },
+    {
+     "address": "上海市黄浦区外滩街道中山东一路349-351号",
+     "category": "城市观光",
+     "description": "外滩观光隧道连接外滩和浦东陆家嘴商圈，是我国第一条越江行人隧道。游客可以乘坐全透明观光车在色彩变换不断的隧道中穿越黄浦江，犹如时空穿梭一般。隧道内壁有各种奇异的色彩变换不停，音响效果与眼前的景观变幻相结合，营造出一种身临其境的震撼。隧道包括“时光隧道区”，“穿梭区” 和“岩浆喷射区”等主题，绚丽的光影效果让人感觉仿佛进入另一般天地。此外，隧道里新增了“音幻世界”、“深海珍奇展”等休闲游乐项目，适合游客带上孩子一起在假日里好好玩上一把。隧道的周边还有环球猎奇馆以及3D魔幻趣味馆，适合游客拍照取景。之后，游客们也可以在南京路步行街体验小吃和购物，有时间的游客可以一并游玩周边的东方明珠，外滩等上海地标型景点。",
+     "freePoiStatus": "NOT_FREE",
+     "id": "116081",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F4et3qy",
+     "latitude": "31.239833",
+     "listRank": "全国城市观光景点榜第2名",
+     "longitude": "121.490422",
+     "mainPic": "https://img.alicdn.com/imgextra/i1/O1CN01ali4aU1QUsmoso8uJ_!!0-alitrip.jpg",
+     "name": "外滩观光隧道",
+     "poiLevel": null,
+     "ticketInfo": {
+      "commissionMoneyYuan": null,
+      "itemId": "920275220145",
+      "price": "¥4x",
+      "priceDate": null,
+      "rate": null,
+      "skuCommissionStruct": null,
+      "ticketName": "门票（单程票） 成人票"
+     }
+    },
+    {
+     "address": "上海市外马路十六铺三区",
+     "category": "城市观光",
+     "description": "黄浦江游览(十六铺码头)是领略上海都市繁华景色的游览方式之一，做为上海的百年老码头，从十六铺旅游码头出发，黄浦江以西是外滩万国建筑博览群，黄浦江以东则是现代化的陆家嘴金融区。等到夜幕降临时，两岸灯光璀璨，景色更是美丽。 十六铺旅游码头有3个区域，有着“快乐船长”、“龙船”、“水晶公主”、“精华游”等多个航班。游船从拥有一百多年历史的十六铺旅游码头出发，顺江而下，首先看到的便是摩天大楼云集的陆家嘴金融区，东方明珠、金茂大厦、上海环球金融中心等地标性建筑都在这里。再经过气势恢宏的杨浦大桥和拥有百余年历史的外白渡桥，就是古典庄重、集多种建筑风格的万国建筑群了，风景十分美丽。",
+     "freePoiStatus": "NOT_FREE",
+     "id": "140626726",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1YmKvn",
+     "latitude": "31.2146045",
+     "listRank": null,
+     "longitude": "121.484581",
+     "mainPic": "https://img.alicdn.com/imgextra/i4/O1CN0122TSwwZcVt3qcgi_!!0-travel.jpg",
+     "name": "十六铺码头浦江游览",
+     "poiLevel": null,
+     "ticketInfo": {
+      "commissionMoneyYuan": null,
+      "itemId": "813910946948",
+      "price": "¥1xx",
+      "priceDate": null,
+      "rate": null,
+      "skuCommissionStruct": null,
+      "ticketName": "夜游船票 成人票"
+     }
+    },
+    {
+     "address": "上海市杨浦区平凉路街道上海市平凉路街道秦皇岛路32号秦皇岛码头",
+     "category": "城市观光",
+     "description": "上海是座令人着迷、向往的城市，黄浦江两岸的美景更是上海永不落幕的经典，登船漫游黄浦江，两岸美景尽收眼底，一边是充满异国风情的万国建筑，一边是美轮美奂的现代建筑群，在这里游客可以尽情品味上海都市风情,“浦江游览”正在成为上海都市旅游的“新名片”。黄浦江——上海母亲河的秀丽风光。",
+     "freePoiStatus": "UNKNOWN",
+     "id": "14299968",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F34hFf3",
+     "latitude": "31.249839",
+     "listRank": null,
+     "longitude": "121.518425",
+     "mainPic": "https://img.alicdn.com/imgextra/i3/TB2geO7ErSYBuNjSspfXXcZCpXa_!!0-alitrip.jpg",
+     "name": "浦江游船",
+     "poiLevel": null,
+     "ticketInfo": null
+    },
+    {
+     "address": "上海市黄浦区外马路99号十六铺游船码头3区（近东门路）",
+     "category": "城市观光",
+     "description": "【最有特色的行程】灯树千光照，花焰七枝开，又是新的一年开始，快乐船长特色浦江游览餐饮航班。将以全新的面貌和更新奇的方式呈现在大家面前！【最有特色的游船】船长8号黄浦江那唯一的外观造型，绚丽的景观灯光。已然成为上海黄浦江上的“网红级”游船。曾多次在电视的娱乐栏目和综艺栏目中出现。",
+     "freePoiStatus": "UNKNOWN",
+     "id": "20262721",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F00YTB0",
+     "latitude": "31.225599",
+     "listRank": null,
+     "longitude": "121.500982",
+     "mainPic": "https://img.alicdn.com/imgextra/i4/O1CN011yiLN4dUb0ppXNn_!!0-travel.jpg",
+     "name": "“快乐船长”黄浦江游船",
+     "poiLevel": null,
+     "ticketInfo": null
+    },
+    {
+     "address": "上海市浦东新区滨江大道2852号（近丰和路）东方明珠游船码头",
+     "category": "城市观光",
+     "description": "东方明珠游船码头地处黄浦江畔陆家嘴嘴尖，已经营运了十多年，其中“中华号”游船还被评为诚信船舶。",
+     "freePoiStatus": "UNKNOWN",
+     "id": "181765260",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2r7fMf",
+     "latitude": "31.240581",
+     "listRank": null,
+     "longitude": "121.496846",
+     "mainPic": "https://img.alicdn.com/imgextra/i4/6000000000291/O1CN01XpwuC11E1JxilNYkd_!!6000000000291-0-fliggyimage.jpg",
+     "name": "东方明珠旅游码头",
+     "poiLevel": null,
+     "ticketInfo": null
+    },
+    {
+     "address": " 上海市黄浦区中山东一路外滩391号",
+     "category": "城市观光",
+     "description": "都市观光旅游巴士共设有观光旅游1线（浦西线）、2线（浦东线）和3线（世博专线），沿途停靠30余个站点，串联起人民广场、南京路步行街、外滩、城隍庙、新天地、淮海路商业街、东方明珠、金茂大厦、环球金融中心、卢浦大桥、南浦大桥、犹太人纪念馆、北外滩滨江及2010年世博会园址等上海市区著名景观。同时，开设“水陆联运”的观光旅游模式，游客既可搭乘观光巴士游览、也可乘坐上海世博轮渡游览“黄金水道”及饱览浦江两岸的美景\n",
+     "freePoiStatus": "NOT_FREE",
+     "id": "140626065",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F205olQ",
+     "latitude": "31.240421",
+     "listRank": null,
+     "longitude": "121.490644",
+     "mainPic": "https://img.alicdn.com/imgextra/i1/O1CN01J4rFPu1trtWdKTZbQ_!!0-alitrip.jpg",
+     "name": "春秋都市旅游观光巴士",
+     "poiLevel": null,
+     "ticketInfo": {
+      "commissionMoneyYuan": null,
+      "itemId": "748956939815",
+      "price": "¥5x",
+      "priceDate": null,
+      "rate": null,
+      "skuCommissionStruct": null,
+      "ticketName": "24小时有效全线车票 成人票"
+     }
+    },
+    {
+     "address": "上海市黄浦区外滩街道中山东二路141号金陵东路渡口",
+     "category": "城市观光",
+     "description": "快线游浓缩了浦江两岸的精华，路线为金陵东路码头—十六铺老码头—南浦大桥—江南造船厂遗址—中华艺术宫—卢浦大桥—外滩万国建筑博览群—金陵东路码头。全程游览一次约60分钟。",
+     "freePoiStatus": "NOT_FREE",
+     "id": "184406026",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2ONLqq",
+     "latitude": "31.232321",
+     "listRank": null,
+     "longitude": "121.493209",
+     "mainPic": "https://img.alicdn.com/imgextra/i4/6000000007750/O1CN01cnlwXE277YLWn33Gz_!!6000000007750-2-fliggyimage.png",
+     "name": "黄浦江游览快线游(金陵东路码头)",
+     "poiLevel": null,
+     "ticketInfo": {
+      "commissionMoneyYuan": null,
+      "itemId": "996753551093",
+      "price": "¥1xx",
+      "priceDate": null,
+      "rate": null,
+      "skuCommissionStruct": null,
+      "ticketName": "夜游快线游船票 成人票"
+     }
+    },
+    {
+     "address": "上海市黄浦区小东门街道中山东一路49号外滩(东南角)",
+     "category": "城市观光",
+     "description": "登上浦江游轮可以一睹浦江两岸万国建筑群的风光，东方明珠、金茂大厦、国际金融贸易中心等，节假日晚上两岸建筑亦会有精彩的灯光表演，迎着徐徐江风，细细品味上海历史与现代的完美融合。浦江游轮亦可提供派对、婚宴等相关服务。",
+     "freePoiStatus": "NOT_FREE",
+     "id": "20262752",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0it5Nx",
+     "latitude": "31.228149",
+     "listRank": null,
+     "longitude": "121.498039",
+     "mainPic": "https://img.alicdn.com/tfscom/TB1gJkrOpXXXXaIapXXSutbFXXX",
+     "name": "浦江游轮",
+     "poiLevel": null,
+     "ticketInfo": null
+    },
+    {
+     "address": "上海市黄浦区南京东路766号多功能信息服务亭(2号亭)泰康食品对面",
+     "category": "城市观光",
+     "description": "Bus Tour之前是叫Big Bus，是与英国BigBus公司合作的双层敞篷观光巴士，一次游览上海的精华景点，乘坐在上层的话可以360度观赏上海市景，乘客可以随意上下车，安排自己的游览行程。与香港等地的观光巴士同属一个公司。观光巴士经过的景点都为上海的着名景点，巴士分为红线、绿线和蓝线三条路线，其中红色和绿色是浦西线路，蓝色为浦东线路。车上都配备了8国语言的导游设备，讲解上海的人文历史和相关的信息。南京路（新世界城）---人民广场（上海博物馆）---人民公园（上海美术馆）---南京路步行街（古象酒店门口）---外滩A（三阳食品）---外滩B（上海总工会）---十六铺（浦江游览码头）---豫园（人民路永安路）---新天地（星巴克门口）外滩A（三阳食品）---外滩B（上海总工会）---东方明珠（2号门）---环球金融中心和金茂大厦---老码头---十六铺（浦江游览码头）南京路（新世界城）---上海博物馆---淮海路（华狮广场）---静安寺---波特曼酒店---上海电视台---人民公园（上海美术馆）",
+     "freePoiStatus": "NOT_FREE",
+     "id": "140628321",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0SeHOB",
+     "latitude": "31.234597",
+     "listRank": null,
+     "longitude": "121.474324",
+     "mainPic": "https://img.alicdn.com/imgextra/i3/6000000001478/O1CN01ELHzpb1Mmy5PFP01J_!!6000000001478-0-fliggyimage.jpg",
+     "name": "BUSTOUR上海观光游",
+     "poiLevel": null,
+     "ticketInfo": {
+      "commissionMoneyYuan": null,
+      "itemId": "867861738966",
+      "price": "¥1xx",
+      "priceDate": null,
+      "rate": null,
+      "skuCommissionStruct": null,
+      "ticketName": "24小时全线车票 成人票"
+     }
+    }
+   ]
+  },
+  "message": "success",
+  "status": 0,
+  "systemMessage": "*当前为体验模式，部分搜索结果可能受限，请前往 [飞猪AI开放平台](https://flyai.open.fliggy.com/) 获取正式API Key解锁完整服务。*"
+ }
+}

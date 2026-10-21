@@ -1,0 +1,183 @@
+{
+ "fetchedAt": "2026-10-20T08:55:12.722Z",
+ "command": "search-poi",
+ "args": {
+  "city-name": "杭州",
+  "category": "历史古迹"
+ },
+ "response": {
+  "data": {
+   "itemList": [
+    {
+     "address": "浙江省杭州市西湖区西湖街道灵隐路法云弄1号",
+     "category": "历史古迹",
+     "description": "灵隐飞来峰景区位于杭州西湖风景名胜区，是国家级重点文物保护单位。飞来峰以喀斯特溶洞和五代至宋元时期300余尊佛教石窟造像闻名，尤以弥勒佛、十八罗汉等雕刻精美著称。灵隐寺始建于东晋，为江南禅宗名刹，香火鼎盛。景区融自然山水与千年佛教文化于一体，古木参天，溪涧潺潺，兼具历史厚重与清幽意境。",
+     "freePoiStatus": "FREE",
+     "id": "1887",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F46S1Ih",
+     "latitude": "30.239119",
+     "listRank": "浙江历史古迹景点榜第3名",
+     "longitude": "120.101101",
+     "mainPic": "https://img.alicdn.com/imgextra/i2/6000000007452/O1CN013JeWCL24v4E1JF9U9_!!6000000007452-0-fliggyimage.jpg",
+     "name": "灵隐飞来峰",
+     "poiLevel": null,
+     "ticketInfo": null
+    },
+    {
+     "address": "浙江省杭州市西湖区西湖街道南山路15号",
+     "category": "历史古迹",
+     "description": "雷峰塔又名“黄妃塔”，位于西湖南岸夕照山的雷峰上。很多人的“雷峰塔情结”源于白娘子传说，尽管旧塔在1924年就倒掉了，如今这座是在原塔基上新修的，里面有电梯和空调，但并不妨碍你来此寻访白娘子的踪迹。雷峰塔本身是整个景区最大的看点，新修的雷峰塔更像一个博物馆，从底座往上共有5层。检票后先乘坐电梯到塔基遗址，这里可以看到被玻璃围起来的旧塔的残破底座，里面满地都是零钱，也算是雷峰塔一景。这一层还有一些地宫出土的文物展，以一座阿育王塔最为精美。再往上，来到塔的底层，这一层展出的是大型东阳木雕壁画《白蛇传》，非常细致。从这里继续往上才开始正式登塔，里面有步行的楼梯，也有手扶电梯，大多数时候都需要排队。",
+     "freePoiStatus": "NOT_FREE",
+     "id": "1876",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F4Xatk8",
+     "latitude": "30.230934",
+     "listRank": "浙江历史古迹景点榜第2名",
+     "longitude": "120.148849",
+     "mainPic": "https://img.alicdn.com/tfscom/TB1xRz01br1gK0jSZFDSuv9yVXa",
+     "name": "雷峰塔",
+     "poiLevel": "4",
+     "ticketInfo": null
+    },
+    {
+     "address": "浙江省杭州市余杭区瓶窑镇凤都路与104国道辅路交叉口西北200米",
+     "category": "历史古迹",
+     "description": "良渚古城遗址公园，距今约5300年-4300年之间，位于中国浙江省杭州市余杭区，地处长江下游环太湖地区天目山东端山前河网平原，是中国早期区域文明的重要代表。作为良渚文化的权力与信仰中心，公园以建造于约3300-2300BC间的规模宏大的城址、功能复杂的外围水利系统、分等级墓地（含祭坛）等一系列相关遗址，以及以具有信仰与制度象征的系列玉器为主的出土物，揭示了中国新石器时代晚期在长江下游环太湖地区曾经存在过一个以稻作农业为经济支撑的、出现明显社会分化和具有统一信仰的区域性早期国家，并以其时间早、成就高、内容丰富而展现出长江流域对中华文明起源阶段“多元一体”特征所作出的杰出贡献，填补了《世界遗产名录》东亚地区新石器时代城市考古遗址的空缺，为中国5000年的文明史提供了独特的见证，因此被誉为“实证中华五千年文明史的圣地”。2019年7月6日，它正式被评为‘世界文化遗产’。\n景区位于杭州市余杭区瓶窑镇，面积约14.33平方公里，包括世界文化遗产良渚古城遗址范围内的城址区、瑶山遗址和外围水利系统遗址。\n城址区是公园的核心部分，由宫殿区、内城、外城组成，呈向心式三重布局结构，古河道贯穿其间。城址总面积631公顷，人工堆筑总土石方量约717万立方米。宫殿区居于城址中央，地势较为高敞，面积约39公顷，是良渚时期较高统治者居住和活动的主要场所。内城由城墙围合而成，平面略呈圆角长方形，南北长约1910米，东西宽约1770米，面积280公顷（含宫殿区）。以宫殿区为中心，内城分布有墓地、居址（含手工作坊）台地、古河道等遗址。外城位于内城外围，由17处断续分布的台地构成半闭合的外郭轮廓，包括居址作坊和墓葬遗迹，面积约351公顷。外城台地和穿行其间的河网形成临水而居的水乡景观。\n瑶山遗址位于城址外东北方向约5公里的一处山丘顶部，是一处祭坛和高等级墓葬的复合遗址，属于良渚文化早期。瑶山墓地的墓葬均为竖穴土坑墓，分南、北两排埋葬，出土随葬品754件（组），其中玉器共出土678件（组）。\n外围水利系统为良渚古城建设之初统一规划的城市水资源管理工程，由谷口高坝、平原低坝和山前长堤的11条人工坝体和自然山体、溢洪道构成，总土方量288万立方米，是中国迄今发现较早的大型水利工程遗址，也是目前已发现的世界上较早的低坝系统之一。",
+     "freePoiStatus": "NOT_FREE",
+     "id": "14306659",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0aBM0E",
+     "latitude": "30.389549",
+     "listRank": "浙江历史古迹景点榜第1名",
+     "longitude": "119.991005",
+     "mainPic": "https://img.alicdn.com/imgextra/i4/O1CN0124lRizBCzRM788J_!!0-travel.jpg",
+     "name": "良渚古城遗址公园",
+     "poiLevel": null,
+     "ticketInfo": {
+      "commissionMoneyYuan": null,
+      "itemId": "618125273859",
+      "price": "¥5x",
+      "priceDate": null,
+      "rate": null,
+      "skuCommissionStruct": null,
+      "ticketName": "大门票 成人票"
+     }
+    },
+    {
+     "address": "浙江省杭州市西湖区西湖街道北山街80号",
+     "category": "历史古迹",
+     "description": "杭州岳王庙位于西湖西北角，北山路西段北侧。 岳王庙是历代纪念民族英雄岳飞的场所。岳王庙始建于南宋嘉定十四年（1221年），明景泰年间改称“忠烈庙”，经历了元、明、清、民国时兴时废， 代代相传一直何存到现在。 南北各有一条碑廊，北面碑廊陈列的是岳飞的诗词、奏札等手迹，南面是历代修庙的记录以及历代名人凭吊岳飞的诗词。庭园中间有一石桥名精忠桥；过精忠桥便是墓阙，造型古朴，是1978年重修时按南宋的建筑风格造的。墓阙边上有一口井名忠泉。进墓阙重门就是岳飞墓园，墓道两侧有石马石虎石羊各一对，石俑三对正中便是岳飞墓，墓碑上刻着“宋岳鄂王墓”，左边是岳云墓，墓碑上刻着“宋继忠侯岳云墓”，两墓保持宋代的式样。墓前一对望柱上刻有一副对联：“正邪自古同冰炭，毁誉于今判伪真”。墓阙后面两侧分列秦桧等4人的铸铁跪像，供人唾骂，遗臭万年。墓阙后重门旁有对联一副：“青山有幸埋忠骨，白铁无辜铸奸臣”。墓园一侧，另有一组庭园，现已辟成岳飞纪念馆，供游人瞻仰。",
+     "freePoiStatus": "NOT_FREE",
+     "id": "2175",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F49vVoR",
+     "latitude": "30.252443",
+     "listRank": "杭州人文古迹景点榜第4名",
+     "longitude": "120.13459",
+     "mainPic": "https://img.alicdn.com/imgextra/i1/6000000008038/O1CN01zspKaU29FSIoZ2CQ8_!!6000000008038-2-fliggyimage.png",
+     "name": "岳王庙",
+     "poiLevel": null,
+     "ticketInfo": null
+    },
+    {
+     "address": "浙江省杭州市上城区清波街道吴山3号(吴山广场山顶)",
+     "category": "历史古迹",
+     "description": "城隍阁景区一期工程建筑物主要位于原城隍庙遗址高台，以它为中心，北起东岳庙，南至十二生肖石。包括周新祠、仪门、文昌阁、戏台、诗碑廊、碑亭、古树平台、吴越文化石刻广场及迎宾轩综合服务楼。景区着力于发掘和展示历史文化和民俗风情。\n景区入口处，竖有大型花岗岩浮雕《吴山风情图》，作品汲取了民间木雕花版造型的长处，运用传统与现代相结合的手法，刻画了栩栩如生的历史场景和庙会人物。浮雕以南宋为时代背景，以城隍庙为中心，再现了古代逢年过节举行庙会期间吴山一条街的热闹、繁华。从浮雕画面上，既可以找到当年茶楼酒肆、风味小吃等等古色古香的店家，又能够见到琴棋书画、说书弹唱的各类艺人，还可以看到佛道神仙、测字的芸芸众生相。三教九流，应有尽有。 浮雕前的4根擎天柱，为广场的装饰物，是从古建筑斗拱形态中提炼出来的，意在展现中国古代建筑中的力与美。 在景区入口处对面的照壁上，镌刻着“吴山大观”四个大字，集清康熙皇帝手书字而成。这块照壁高3米，长17米，用青石雕刻。",
+     "freePoiStatus": "NOT_FREE",
+     "id": "202806",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1Svs1R",
+     "latitude": "30.236413",
+     "listRank": "杭州人文古迹景点榜第9名",
+     "longitude": "120.164726",
+     "mainPic": "https://img.alicdn.com/tfscom/TB1dnKQKrr1gK0jSZFDSuv9yVXa",
+     "name": "城隍阁景区",
+     "poiLevel": null,
+     "ticketInfo": null
+    },
+    {
+     "address": "浙江省杭州市西湖区西湖街道之江路16号(近钱塘江)",
+     "category": "历史古迹",
+     "description": "六和塔位于杭州钱塘江畔月轮山上，是杭州著名的风景景观。始建于北宋开宝三年（公元970年）。从六和塔内向江面眺望，可看到壮观的钱塘江大桥和宽阔的江面。六和塔塔高近60米，外看13层，塔内只有7层。外形雍容大度，气宇不凡，塔内由螺旋阶梯相连。塔内第三级须弥座上雕刻花卉飞禽、走兽、飞仙等各式图案，刻画精细。构思精巧，结构奇妙，是我国古代建筑艺术的杰作。 1961年被国务院定为全国重点文物保护单位。2007年被列为西湖三十景之一。 六和塔的名字来源于佛教的“六和敬”，当时建造的目的是用以镇压钱塘江的江潮。塔高59.89米，其建造风格非常独特，塔内部砖石结构分七层，外部木结构为8面13层。",
+     "freePoiStatus": "NOT_FREE",
+     "id": "1888",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0qjolo",
+     "latitude": "30.196338",
+     "listRank": "杭州人文古迹景点榜第6名",
+     "longitude": "120.131487",
+     "mainPic": "https://img.alicdn.com/tfscom/TB1841TKuH2gK0jSZJnSuuT1FXa",
+     "name": "六和塔",
+     "poiLevel": null,
+     "ticketInfo": null
+    },
+    {
+     "address": "浙江省杭州市淳安县千岛湖镇里联路54号",
+     "category": "历史古迹",
+     "description": "千岛湖魁星楼，坐落在淳安县城西的一座山顶上。临湖而立，雄伟奇崛，它让你浮想联翩，遐想不断。",
+     "freePoiStatus": "UNKNOWN",
+     "id": "146858122",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F04JmV6",
+     "latitude": "29.597054",
+     "listRank": null,
+     "longitude": "119.018545",
+     "mainPic": "https://img.alicdn.com/imgextra/i3/O1CN01J3IW6R1UNKkrUSDC6_!!0-travel.jpg",
+     "name": "千岛湖魁星楼",
+     "poiLevel": null,
+     "ticketInfo": null
+    },
+    {
+     "address": "浙江省杭州市上城区清波街道南山路11号",
+     "category": "历史古迹",
+     "description": "钱王祠位于柳浪闻莺内，初是为了纪念吴越国钱王而建的表忠祠，至今已有900多年历史。主要看点有功德坊、圣旨等牌楼、钱王钱镠塑像及一块刻着“钱祠表忠”的石雕，北面有三评西湖十景碑记。苏轼曾撰的《表忠观碑记》，是书法史上的名碑之一，不过原碑早已不复存在，钱王祠内现存的是明代嘉靖年间的重刻版，也算得上弥足珍贵。另外值得一看的是钱王祠-五王殿后面的两棵结香树，每年二三月花开时，来赏花的游人总是不少。每年春节期间，这里的新春花展也很是热闹。",
+     "freePoiStatus": "NOT_FREE",
+     "id": "140629035",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1qlMl7",
+     "latitude": "30.242848",
+     "listRank": "杭州人文古迹景点榜第8名",
+     "longitude": "120.157932",
+     "mainPic": "https://img.alicdn.com/imgextra/i1/6000000000690/O1CN01cseUwe1Gy48DXn1eh_!!6000000000690-0-fliggyimage.jpg",
+     "name": "钱王祠",
+     "poiLevel": null,
+     "ticketInfo": {
+      "commissionMoneyYuan": null,
+      "itemId": "1079266970558",
+      "price": "¥1x",
+      "priceDate": null,
+      "rate": null,
+      "skuCommissionStruct": null,
+      "ticketName": "大门票（夜游） 成人票"
+     }
+    },
+    {
+     "address": "浙江省杭州市上城区南星街道万松岭路81号",
+     "category": "历史古迹",
+     "description": "万松书院位于西湖南缘凤凰山万松岭，曾名太和书院、敷文书院，是明清时杭州规模大、历时久、影响广的文人汇集之地。明代王阳明、清代齐召南等大学者曾在此讲学，\"随园诗人\"袁枚也曾在此就读。清代康熙、乾隆两帝南巡时，分别赐额\"浙水敷文\"、\"湖山萃秀\"。万松书院始建于唐贞元年间，名报恩寺。明弘治十一年改辟为万松书院。明代理学家王阳明曾在此讲学。清康熙帝为书院题写\"浙水敷文\"匾额，遂改称为敷文书院。现遗址尚存有\"万世师表\"四字的牌坊一座和依稀可见\"至圣先师孔子像\"的石碑等物。2001年7月，杭州市启动万松书院复建工程，按明代建筑风格样式修复，规划面积5万多平方米，建筑面积1200平方米。书院主体建筑包括仰圣门、明道堂、大成殿、毓秀阁等。其中毓秀阁原为接待各地访问学者的处所，现辟有\"梁祝书房\"，展现梁祝当年刻苦攻读、\"促膝并肩两无猜\"的场景。明道堂为书院讲堂，陈设展示中国历代科举文化。大成殿为祭祀孔子处，设有\"孔子行教图\"壁画。",
+     "freePoiStatus": "NOT_FREE",
+     "id": "140629019",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3u4URi",
+     "latitude": "30.226809",
+     "listRank": null,
+     "longitude": "120.160498",
+     "mainPic": "https://img.alicdn.com/imgextra/i3/6000000000723/O1CN01mHmG6H1HDAx9xvmHW_!!6000000000723-0-fliggyimage.jpg",
+     "name": "万松书院",
+     "poiLevel": null,
+     "ticketInfo": null
+    },
+    {
+     "address": "浙江省杭州市上城区小营街道望江路228-264号(江城路地铁站E口步行460米)",
+     "category": "历史古迹",
+     "description": "2022年5月，南宋德寿宫遗址博物馆（德寿宫遗址保护展示工程一期）项目中西区遗址揭示顺利完成。南宋德寿宫始建于绍兴三十二年，为宋高宗赵构退位后居所，与南宋皇城遥相呼应，坊间也称北大内。2001年至今，德寿宫遗址已经过4次考古发掘，占地面积约11万平方米",
+     "freePoiStatus": "UNKNOWN",
+     "id": "179719552",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1lfTRL",
+     "latitude": "30.238678",
+     "listRank": "杭州人文古迹景点榜第7名",
+     "longitude": "120.173273",
+     "mainPic": "https://img.alicdn.com/imgextra/i1/6000000006632/O1CN01AEaXtv1yrVVKfCqT1_!!6000000006632-2-fliggyimage.png",
+     "name": "南宋德寿宫遗址",
+     "poiLevel": null,
+     "ticketInfo": null
+    }
+   ]
+  },
+  "message": "success",
+  "status": 0,
+  "systemMessage": "*当前为体验模式，部分搜索结果可能受限，请前往 [飞猪AI开放平台](https://flyai.open.fliggy.com/) 获取正式API Key解锁完整服务。*"
+ }
+}

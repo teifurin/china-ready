@@ -1,0 +1,629 @@
+{
+ "fetchedAt": "2026-10-20T08:55:18.583Z",
+ "command": "search-flight",
+ "args": {
+  "origin": "西安",
+  "destination": "首尔",
+  "dep-date": "2026-12-07",
+  "sort-type": 3
+ },
+ "response": {
+  "data": {
+   "itemList": [
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "SHE",
+         "arrCityName": "沈阳",
+         "arrDateTime": "2026-12-07 15:00:00",
+         "arrStationCode": "SHE",
+         "arrStationName": "桃仙国际机场",
+         "arrStationShortName": "桃仙",
+         "arrTerm": "T3",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "SIA",
+         "depCityName": "西安",
+         "depDateTime": "2026-12-07 12:25:00",
+         "depStationCode": "XIY",
+         "depStationName": "咸阳机场",
+         "depStationShortName": "咸阳",
+         "depTerm": "T5",
+         "depWeekAbbrName": "周一",
+         "duration": "155",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ6414",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        },
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "SEL",
+         "arrCityName": "首尔",
+         "arrDateTime": "2026-12-07 20:50:00",
+         "arrStationCode": "ICN",
+         "arrStationName": "仁川国际机场",
+         "arrStationShortName": "仁川",
+         "arrTerm": "T1",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "SHE",
+         "depCityName": "沈阳",
+         "depDateTime": "2026-12-07 18:00:00",
+         "depStationCode": "SHE",
+         "depStationName": "桃仙国际机场",
+         "depStationShortName": "桃仙",
+         "depTerm": "",
+         "depWeekAbbrName": "周一",
+         "duration": "110",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ671",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "445",
+       "transferDuration": "180"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0B5rxN",
+     "tags": null,
+     "ticketPrice": "727.00",
+     "totalDuration": "445"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "CAN",
+         "arrCityName": "广州",
+         "arrDateTime": "2026-12-07 15:55:00",
+         "arrStationCode": "CAN",
+         "arrStationName": "白云国际机场",
+         "arrStationShortName": "白云",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "SIA",
+         "depCityName": "西安",
+         "depDateTime": "2026-12-07 13:00:00",
+         "depStationCode": "XIY",
+         "depStationName": "咸阳机场",
+         "depStationShortName": "咸阳",
+         "depTerm": "T5",
+         "depWeekAbbrName": "周一",
+         "duration": "175",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ3238",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        },
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "SEL",
+         "arrCityName": "首尔",
+         "arrDateTime": "2026-12-07 21:50:00",
+         "arrStationCode": "ICN",
+         "arrStationName": "仁川国际机场",
+         "arrStationShortName": "仁川",
+         "arrTerm": "T1",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "CAN",
+         "depCityName": "广州",
+         "depDateTime": "2026-12-07 17:30:00",
+         "depStationCode": "CAN",
+         "depStationName": "白云国际机场",
+         "depStationShortName": "白云",
+         "depTerm": "T2",
+         "depWeekAbbrName": "周一",
+         "duration": "200",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ339",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "470",
+       "transferDuration": "95"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1BV2fk",
+     "tags": null,
+     "ticketPrice": "727.00",
+     "totalDuration": "470"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "CAN",
+         "arrCityName": "广州",
+         "arrDateTime": "2026-12-07 13:55:00",
+         "arrStationCode": "CAN",
+         "arrStationName": "白云国际机场",
+         "arrStationShortName": "白云",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "SIA",
+         "depCityName": "西安",
+         "depDateTime": "2026-12-07 11:10:00",
+         "depStationCode": "XIY",
+         "depStationName": "咸阳机场",
+         "depStationShortName": "咸阳",
+         "depTerm": "T5",
+         "depWeekAbbrName": "周一",
+         "duration": "165",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ3202",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        },
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "SEL",
+         "arrCityName": "首尔",
+         "arrDateTime": "2026-12-07 21:50:00",
+         "arrStationCode": "ICN",
+         "arrStationName": "仁川国际机场",
+         "arrStationShortName": "仁川",
+         "arrTerm": "T1",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "CAN",
+         "depCityName": "广州",
+         "depDateTime": "2026-12-07 17:30:00",
+         "depStationCode": "CAN",
+         "depStationName": "白云国际机场",
+         "depStationShortName": "白云",
+         "depTerm": "T2",
+         "depWeekAbbrName": "周一",
+         "duration": "200",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ339",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "580",
+       "transferDuration": "215"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2eFirj",
+     "tags": null,
+     "ticketPrice": "727.00",
+     "totalDuration": "580"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "DLC",
+         "arrCityName": "大连",
+         "arrDateTime": "2026-12-08 00:25:00",
+         "arrStationCode": "DLC",
+         "arrStationName": "周水子机场",
+         "arrStationShortName": "周水子",
+         "arrTerm": "",
+         "arrWeekAbbrName": "周二",
+         "depCityAbroad": null,
+         "depCityCode": "SIA",
+         "depCityName": "西安",
+         "depDateTime": "2026-12-07 22:05:00",
+         "depStationCode": "XIY",
+         "depStationName": "咸阳机场",
+         "depStationShortName": "咸阳",
+         "depTerm": "T5",
+         "depWeekAbbrName": "周一",
+         "duration": "140",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ6966",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        },
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "SEL",
+         "arrCityName": "首尔",
+         "arrDateTime": "2026-12-08 10:20:00",
+         "arrStationCode": "ICN",
+         "arrStationName": "仁川国际机场",
+         "arrStationShortName": "仁川",
+         "arrTerm": "T1",
+         "arrWeekAbbrName": "周二",
+         "depCityAbroad": null,
+         "depCityCode": "DLC",
+         "depCityName": "大连",
+         "depDateTime": "2026-12-08 08:00:00",
+         "depStationCode": "DLC",
+         "depStationName": "周水子机场",
+         "depStationShortName": "周水子",
+         "depTerm": "",
+         "depWeekAbbrName": "周二",
+         "duration": "80",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ685",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "675",
+       "transferDuration": "455"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0EjDpk",
+     "tags": null,
+     "ticketPrice": "727.00",
+     "totalDuration": "675"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "CAN",
+         "arrCityName": "广州",
+         "arrDateTime": "2026-12-07 11:55:00",
+         "arrStationCode": "CAN",
+         "arrStationName": "白云国际机场",
+         "arrStationShortName": "白云",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "SIA",
+         "depCityName": "西安",
+         "depDateTime": "2026-12-07 09:00:00",
+         "depStationCode": "XIY",
+         "depStationName": "咸阳机场",
+         "depStationShortName": "咸阳",
+         "depTerm": "T5",
+         "depWeekAbbrName": "周一",
+         "duration": "175",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ3216",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        },
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "SEL",
+         "arrCityName": "首尔",
+         "arrDateTime": "2026-12-07 21:50:00",
+         "arrStationCode": "ICN",
+         "arrStationName": "仁川国际机场",
+         "arrStationShortName": "仁川",
+         "arrTerm": "T1",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "CAN",
+         "depCityName": "广州",
+         "depDateTime": "2026-12-07 17:30:00",
+         "depStationCode": "CAN",
+         "depStationName": "白云国际机场",
+         "depStationShortName": "白云",
+         "depTerm": "T2",
+         "depWeekAbbrName": "周一",
+         "duration": "200",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ339",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "710",
+       "transferDuration": "335"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0cmO0q",
+     "tags": null,
+     "ticketPrice": "727.00",
+     "totalDuration": "710"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "CAN",
+         "arrCityName": "广州",
+         "arrDateTime": "2026-12-07 10:55:00",
+         "arrStationCode": "CAN",
+         "arrStationName": "白云国际机场",
+         "arrStationShortName": "白云",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "SIA",
+         "depCityName": "西安",
+         "depDateTime": "2026-12-07 08:00:00",
+         "depStationCode": "XIY",
+         "depStationName": "咸阳机场",
+         "depStationShortName": "咸阳",
+         "depTerm": "T5",
+         "depWeekAbbrName": "周一",
+         "duration": "175",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ3220",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        },
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "SEL",
+         "arrCityName": "首尔",
+         "arrDateTime": "2026-12-07 21:50:00",
+         "arrStationCode": "ICN",
+         "arrStationName": "仁川国际机场",
+         "arrStationShortName": "仁川",
+         "arrTerm": "T1",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "CAN",
+         "depCityName": "广州",
+         "depDateTime": "2026-12-07 17:30:00",
+         "depStationCode": "CAN",
+         "depStationName": "白云国际机场",
+         "depStationShortName": "白云",
+         "depTerm": "T2",
+         "depWeekAbbrName": "周一",
+         "duration": "200",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ339",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "770",
+       "transferDuration": "395"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0pJZXs",
+     "tags": null,
+     "ticketPrice": "727.00",
+     "totalDuration": "770"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "SEL",
+         "arrCityName": "首尔",
+         "arrDateTime": "2026-12-07 13:15:00",
+         "arrStationCode": "ICN",
+         "arrStationName": "仁川国际机场",
+         "arrStationShortName": "仁川",
+         "arrTerm": "T1",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "SIA",
+         "depCityName": "西安",
+         "depDateTime": "2026-12-07 06:55:00",
+         "depStationCode": "XIY",
+         "depStationName": "咸阳机场",
+         "depStationShortName": "咸阳",
+         "depTerm": "T5",
+         "depWeekAbbrName": "周一",
+         "duration": "320",
+         "marketingTransportName": "东航",
+         "marketingTransportNo": "MU5021",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": [
+          {
+           "arrDateTime": "2026-12-07 09:15:00",
+           "arrTerm": "",
+           "cityCode": "TAO",
+           "cityName": "青岛",
+           "depDateTime": "2026-12-07 10:40:00",
+           "depTerm": "",
+           "duration": "-85",
+           "stationCode": "TAO",
+           "stationName": "胶东"
+          }
+         ],
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "320",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3lVYEE",
+     "tags": null,
+     "ticketPrice": "1037.00",
+     "totalDuration": "320"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "SEL",
+         "arrCityName": "首尔",
+         "arrDateTime": "2026-12-07 18:55:00",
+         "arrStationCode": "ICN",
+         "arrStationName": "仁川国际机场",
+         "arrStationShortName": "仁川",
+         "arrTerm": "T1",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "SIA",
+         "depCityName": "西安",
+         "depDateTime": "2026-12-07 15:15:00",
+         "depStationCode": "XIY",
+         "depStationName": "咸阳机场",
+         "depStationShortName": "咸阳",
+         "depTerm": "T5",
+         "depWeekAbbrName": "周一",
+         "duration": "160",
+         "marketingTransportName": "东航",
+         "marketingTransportNo": "MU853",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "160",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2ReYcj",
+     "tags": null,
+     "ticketPrice": "1237.00",
+     "totalDuration": "160"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "SEL",
+         "arrCityName": "首尔",
+         "arrDateTime": "2026-12-07 17:10:00",
+         "arrStationCode": "ICN",
+         "arrStationName": "仁川国际机场",
+         "arrStationShortName": "仁川",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "SIA",
+         "depCityName": "西安",
+         "depDateTime": "2026-12-07 13:25:00",
+         "depStationCode": "XIY",
+         "depStationName": "咸阳机场",
+         "depStationShortName": "咸阳",
+         "depTerm": "T5",
+         "depWeekAbbrName": "周一",
+         "duration": "165",
+         "marketingTransportName": "韩亚航空",
+         "marketingTransportNo": "OZ348",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "165",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0lHDkU",
+     "tags": null,
+     "ticketPrice": "1336.00",
+     "totalDuration": "165"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "SEL",
+         "arrCityName": "首尔",
+         "arrDateTime": "2026-12-07 16:45:00",
+         "arrStationCode": "ICN",
+         "arrStationName": "仁川国际机场",
+         "arrStationShortName": "仁川",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周一",
+         "depCityAbroad": null,
+         "depCityCode": "SIA",
+         "depCityName": "西安",
+         "depDateTime": "2026-12-07 12:55:00",
+         "depStationCode": "XIY",
+         "depStationName": "咸阳机场",
+         "depStationShortName": "咸阳",
+         "depTerm": "T5",
+         "depWeekAbbrName": "周一",
+         "duration": "170",
+         "marketingTransportName": "大韩航空",
+         "marketingTransportNo": "KE138",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "170",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F4MVar3",
+     "tags": null,
+     "ticketPrice": "1786.00",
+     "totalDuration": "170"
+    }
+   ]
+  },
+  "message": "success",
+  "status": 0,
+  "systemMessage": "*当前为体验模式，部分搜索结果可能受限，请前往 [飞猪AI开放平台](https://flyai.open.fliggy.com/) 获取正式API Key解锁完整服务。*"
+ }
+}

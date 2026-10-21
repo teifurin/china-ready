@@ -1,0 +1,84 @@
+{
+ "fetchedAt": "2026-10-20T08:55:20.964Z",
+ "command": "search-hotel",
+ "args": {
+  "dest-name": "北京",
+  "poi-name": "故宫博物院",
+  "hotel-types": "酒店",
+  "check-in-date": "2026-12-03",
+  "check-out-date": "2026-12-06"
+ },
+ "response": {
+  "data": {
+   "itemList": [
+    {
+     "address": "西绒线胡同乙9号",
+     "brandName": "锦江",
+     "commissionMoneyYuan": null,
+     "decorationTime": "2019",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1TK01c",
+     "interestsPoi": "近天安门广场",
+     "latitude": "39.90449",
+     "longitude": "116.382758",
+     "mainPic": "https://img.alicdn.com/imgextra/i4/6000000005060/O1CN01M6V5WU1nFXESLAJtA_!!6000000005060-2-hotel.png",
+     "name": "7天优品·北京天安门店",
+     "price": "¥1xx",
+     "rate": null,
+     "shId": "10003638",
+     "star": "经济型"
+    },
+    {
+     "address": "灯市口大街57号",
+     "brandName": null,
+     "commissionMoneyYuan": null,
+     "decorationTime": "2019",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3vbuox",
+     "interestsPoi": "近王府井大街",
+     "latitude": "39.918876",
+     "longitude": "116.413065",
+     "mainPic": "https://img.alicdn.com/imgextra/i3/6000000004371/O1CN01deQz6S1i9xpYn98A0_!!6000000004371-0-hotel.jpg",
+     "name": "美程·青居酒店(北京王府井店)",
+     "price": "¥4xx",
+     "rate": null,
+     "shId": "51192699",
+     "star": "经济型"
+    },
+    {
+     "address": "北京东城区地安门东大街70号附2号, 中国",
+     "brandName": "速8",
+     "commissionMoneyYuan": null,
+     "decorationTime": "2023-07-08",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0EyWRa",
+     "interestsPoi": "近南锣鼓巷",
+     "latitude": "39.93324715974305",
+     "longitude": "116.39870704873884",
+     "mainPic": "https://img.alicdn.com/imgextra/i4/6000000007398/O1CN01eX8KqM24WL16aUy2Q_!!6000000007398-0-hotel.jpg",
+     "name": "速8优选酒店(北京南锣鼓巷地铁站店)",
+     "price": "¥5xx",
+     "rate": null,
+     "shId": "77088066",
+     "star": "舒适型"
+    },
+    {
+     "address": "西单东斜街53号",
+     "brandName": "锦江",
+     "commissionMoneyYuan": null,
+     "decorationTime": "2016",
+     "detailUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2POrGx",
+     "interestsPoi": "近故宫博物院",
+     "latitude": "39.91637090119965",
+     "longitude": "116.37556950007964",
+     "mainPic": "https://img.alicdn.com/imgextra/i3/O1CN01HogFrOcaPcL37MB6_!!4611686018427384273-0-fliggy_content_upload_image.jpg",
+     "name": "7天优品·北京西单灵境胡同地铁站店",
+     "price": "¥3xx",
+     "rate": null,
+     "shId": "52224422",
+     "star": "经济型"
+    }
+   ]
+  },
+  "message": "success",
+  "status": 0,
+  "systemMessage": "*当前为体验模式，部分搜索结果可能受限，请前往 [飞猪AI开放平台](https://flyai.open.fliggy.com/) 获取正式API Key解锁完整服务。*"
+ }
+}

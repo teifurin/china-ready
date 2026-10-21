@@ -1,0 +1,11 @@
+{
+ "fetchedAt": "2026-10-20T08:55:12.711Z",
+ "command": "search-poi",
+ "args": {
+  "city-name": "上海",
+  "category": "历史古迹"
+ },
+ "response": {
+  "message": "SentinelBlockException by fly-ai-search from com.alitrip.ai.client.api.PoiSearchService:search(com.alitrip.ai.model.poisearch.domain.PoiSearchFacadeRequest)"
+ }
+}

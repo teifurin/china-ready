@@ -1,0 +1,25 @@
+{
+  "name": "inbound-china",
+  "version": "0.1.0",
+  "description": "入境中国随身通 China Ready — multilingual inbound-travel copilot built on Fliggy flyai real-time data + Alibaba Cloud Model Studio (Qwen)",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "bin": { "china-ready": "src/cli.js" },
+  "scripts": {
+    "start": "node src/server.js",
+    "cli": "node src/cli.js",
+    "demo": "node src/cli.js --demo",
+    "offline": "node scripts/offline.js",
+    "test": "node scripts/selftest.js",
+    "screenshots": "node scripts/screenshots.js",
+    "build:static": "node scripts/build-static.js",
+    "preview:static": "node scripts/serve-static.js"
+  },
+  "dependencies": {
+    "@fly-ai/flyai-cli": "1.0.16"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.48.0"
+  }
+}

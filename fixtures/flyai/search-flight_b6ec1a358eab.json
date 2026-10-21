@@ -1,0 +1,533 @@
+{
+ "fetchedAt": "2026-10-20T08:55:12.698Z",
+ "command": "search-flight",
+ "args": {
+  "origin": "东京",
+  "destination": "上海",
+  "dep-date": "2026-11-07",
+  "sort-type": 3
+ },
+ "response": {
+  "data": {
+   "itemList": [
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "SHA",
+         "arrCityName": "上海",
+         "arrDateTime": "2026-11-07 22:35:00",
+         "arrStationCode": "PVG",
+         "arrStationName": "浦东国际机场",
+         "arrStationShortName": "浦东",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周六",
+         "depCityAbroad": null,
+         "depCityCode": "TYO",
+         "depCityName": "东京",
+         "depDateTime": "2026-11-07 19:40:00",
+         "depStationCode": "NRT",
+         "depStationName": "成田国际机场",
+         "depStationShortName": "成田",
+         "depTerm": "T3",
+         "depWeekAbbrName": "周六",
+         "duration": "235",
+         "marketingTransportName": "春秋",
+         "marketingTransportNo": "9C6218",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "235",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2J5dMY",
+     "tags": null,
+     "ticketPrice": "1119.00",
+     "totalDuration": "235"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "SHA",
+         "arrCityName": "上海",
+         "arrDateTime": "2026-11-07 16:25:00",
+         "arrStationCode": "PVG",
+         "arrStationName": "浦东国际机场",
+         "arrStationShortName": "浦东",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周六",
+         "depCityAbroad": null,
+         "depCityCode": "TYO",
+         "depCityName": "东京",
+         "depDateTime": "2026-11-07 13:45:00",
+         "depStationCode": "NRT",
+         "depStationName": "成田国际机场",
+         "depStationShortName": "成田",
+         "depTerm": "T3",
+         "depWeekAbbrName": "周六",
+         "duration": "220",
+         "marketingTransportName": "春秋日本航空",
+         "marketingTransportNo": "IJ003",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "220",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3OLdnK",
+     "tags": null,
+     "ticketPrice": "1180.00",
+     "totalDuration": "220"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "SHA",
+         "arrCityName": "上海",
+         "arrDateTime": "2026-11-07 22:00:00",
+         "arrStationCode": "PVG",
+         "arrStationName": "浦东国际机场",
+         "arrStationShortName": "浦东",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周六",
+         "depCityAbroad": null,
+         "depCityCode": "TYO",
+         "depCityName": "东京",
+         "depDateTime": "2026-11-07 19:20:00",
+         "depStationCode": "NRT",
+         "depStationName": "成田国际机场",
+         "depStationShortName": "成田",
+         "depTerm": "T3",
+         "depWeekAbbrName": "周六",
+         "duration": "220",
+         "marketingTransportName": "春秋日本航空",
+         "marketingTransportNo": "IJ005",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "220",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0zINRM",
+     "tags": null,
+     "ticketPrice": "1180.00",
+     "totalDuration": "220"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "CJJ",
+         "arrCityName": "清州",
+         "arrDateTime": "2026-11-07 15:25:00",
+         "arrStationCode": "CJJ",
+         "arrStationName": "清州国际机场",
+         "arrStationShortName": "清州",
+         "arrTerm": "",
+         "arrWeekAbbrName": "周六",
+         "depCityAbroad": null,
+         "depCityCode": "TYO",
+         "depCityName": "东京",
+         "depDateTime": "2026-11-07 12:55:00",
+         "depStationCode": "NRT",
+         "depStationName": "成田国际机场",
+         "depStationShortName": "成田",
+         "depTerm": "T3",
+         "depWeekAbbrName": "周六",
+         "duration": "150",
+         "marketingTransportName": "可依航空",
+         "marketingTransportNo": "RF321",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        },
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "SHA",
+         "arrCityName": "上海",
+         "arrDateTime": "2026-11-08 01:20:00",
+         "arrStationCode": "PVG",
+         "arrStationName": "浦东国际机场",
+         "arrStationShortName": "浦东",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "CJJ",
+         "depCityName": "清州",
+         "depDateTime": "2026-11-07 23:40:00",
+         "depStationCode": "CJJ",
+         "depStationName": "清州国际机场",
+         "depStationShortName": "清州",
+         "depTerm": "",
+         "depWeekAbbrName": "周六",
+         "duration": "160",
+         "marketingTransportName": "易斯达航空",
+         "marketingTransportNo": "ZE821",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "805",
+       "transferDuration": "495"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1Bi0nS",
+     "tags": null,
+     "ticketPrice": "1375.00",
+     "totalDuration": "805"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "CJJ",
+         "arrCityName": "清州",
+         "arrDateTime": "2026-11-07 13:05:00",
+         "arrStationCode": "CJJ",
+         "arrStationName": "清州国际机场",
+         "arrStationShortName": "清州",
+         "arrTerm": "",
+         "arrWeekAbbrName": "周六",
+         "depCityAbroad": null,
+         "depCityCode": "TYO",
+         "depCityName": "东京",
+         "depDateTime": "2026-11-07 10:35:00",
+         "depStationCode": "NRT",
+         "depStationName": "成田国际机场",
+         "depStationShortName": "成田",
+         "depTerm": "T3",
+         "depWeekAbbrName": "周六",
+         "duration": "150",
+         "marketingTransportName": "可依航空",
+         "marketingTransportNo": "RF391",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        },
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "SHA",
+         "arrCityName": "上海",
+         "arrDateTime": "2026-11-08 01:20:00",
+         "arrStationCode": "PVG",
+         "arrStationName": "浦东国际机场",
+         "arrStationShortName": "浦东",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "CJJ",
+         "depCityName": "清州",
+         "depDateTime": "2026-11-07 23:40:00",
+         "depStationCode": "CJJ",
+         "depStationName": "清州国际机场",
+         "depStationShortName": "清州",
+         "depTerm": "",
+         "depWeekAbbrName": "周六",
+         "duration": "160",
+         "marketingTransportName": "易斯达航空",
+         "marketingTransportNo": "ZE821",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "945",
+       "transferDuration": "635"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3r1QqD",
+     "tags": null,
+     "ticketPrice": "1375.00",
+     "totalDuration": "945"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "SHA",
+         "arrCityName": "上海",
+         "arrDateTime": "2026-11-07 05:00:00",
+         "arrStationCode": "PVG",
+         "arrStationName": "浦东国际机场",
+         "arrStationShortName": "浦东",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周六",
+         "depCityAbroad": null,
+         "depCityCode": "TYO",
+         "depCityName": "东京",
+         "depDateTime": "2026-11-07 02:15:00",
+         "depStationCode": "HND",
+         "depStationName": "羽田机场",
+         "depStationShortName": "羽田",
+         "depTerm": "T3",
+         "depWeekAbbrName": "周六",
+         "duration": "225",
+         "marketingTransportName": "乐桃航空",
+         "marketingTransportNo": "MM877",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "225",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1mSJBU",
+     "tags": null,
+     "ticketPrice": "1400.00",
+     "totalDuration": "225"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "SPK",
+         "arrCityName": "札幌",
+         "arrDateTime": "2026-11-07 19:20:00",
+         "arrStationCode": "CTS",
+         "arrStationName": "新千岁机场",
+         "arrStationShortName": "新千岁",
+         "arrTerm": "D",
+         "arrWeekAbbrName": "周六",
+         "depCityAbroad": null,
+         "depCityCode": "TYO",
+         "depCityName": "东京",
+         "depDateTime": "2026-11-07 17:35:00",
+         "depStationCode": "NRT",
+         "depStationName": "成田国际机场",
+         "depStationShortName": "成田",
+         "depTerm": "T3",
+         "depWeekAbbrName": "周六",
+         "duration": "105",
+         "marketingTransportName": "春秋日本航空",
+         "marketingTransportNo": "IJ835",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        },
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "SHA",
+         "arrCityName": "上海",
+         "arrDateTime": "2026-11-08 17:00:00",
+         "arrStationCode": "PVG",
+         "arrStationName": "浦东国际机场",
+         "arrStationShortName": "浦东",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "SPK",
+         "depCityName": "札幌",
+         "depDateTime": "2026-11-08 13:50:00",
+         "depStationCode": "CTS",
+         "depStationName": "新千岁机场",
+         "depStationShortName": "新千岁",
+         "depTerm": "I",
+         "depWeekAbbrName": "周日",
+         "duration": "250",
+         "marketingTransportName": "春秋",
+         "marketingTransportNo": "9C8792",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "1465",
+       "transferDuration": "1110"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2mjWGf",
+     "tags": null,
+     "ticketPrice": "1465.00",
+     "totalDuration": "1465"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "SHA",
+         "arrCityName": "上海",
+         "arrDateTime": "2026-11-07 04:30:00",
+         "arrStationCode": "PVG",
+         "arrStationName": "浦东国际机场",
+         "arrStationShortName": "浦东",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周六",
+         "depCityAbroad": null,
+         "depCityCode": "TYO",
+         "depCityName": "东京",
+         "depDateTime": "2026-11-07 02:00:00",
+         "depStationCode": "HND",
+         "depStationName": "羽田机场",
+         "depStationShortName": "羽田",
+         "depTerm": "T3",
+         "depWeekAbbrName": "周六",
+         "duration": "210",
+         "marketingTransportName": "春秋",
+         "marketingTransportNo": "9C8516",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "210",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0x1FRe",
+     "tags": null,
+     "ticketPrice": "1585.00",
+     "totalDuration": "210"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "SHA",
+         "arrCityName": "上海",
+         "arrDateTime": "2026-11-07 15:40:00",
+         "arrStationCode": "PVG",
+         "arrStationName": "浦东国际机场",
+         "arrStationShortName": "浦东",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周六",
+         "depCityAbroad": null,
+         "depCityCode": "TYO",
+         "depCityName": "东京",
+         "depDateTime": "2026-11-07 13:15:00",
+         "depStationCode": "NRT",
+         "depStationName": "成田国际机场",
+         "depStationShortName": "成田",
+         "depTerm": "T2",
+         "depWeekAbbrName": "周六",
+         "duration": "205",
+         "marketingTransportName": "吉祥",
+         "marketingTransportNo": "HO1380",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "205",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F36rOmS",
+     "tags": null,
+     "ticketPrice": "1637.00",
+     "totalDuration": "205"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "SHA",
+         "arrCityName": "上海",
+         "arrDateTime": "2026-11-07 17:35:00",
+         "arrStationCode": "PVG",
+         "arrStationName": "浦东国际机场",
+         "arrStationShortName": "浦东",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周六",
+         "depCityAbroad": null,
+         "depCityCode": "TYO",
+         "depCityName": "东京",
+         "depDateTime": "2026-11-07 15:00:00",
+         "depStationCode": "NRT",
+         "depStationName": "成田国际机场",
+         "depStationShortName": "成田",
+         "depTerm": "T1",
+         "depWeekAbbrName": "周六",
+         "duration": "215",
+         "marketingTransportName": "国航",
+         "marketingTransportNo": "CA930",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "215",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2JMsdC",
+     "tags": null,
+     "ticketPrice": "2071.00",
+     "totalDuration": "215"
+    }
+   ]
+  },
+  "message": "success",
+  "status": 0,
+  "systemMessage": "*当前为体验模式，部分搜索结果可能受限，请前往 [飞猪AI开放平台](https://flyai.open.fliggy.com/) 获取正式API Key解锁完整服务。*"
+ }
+}

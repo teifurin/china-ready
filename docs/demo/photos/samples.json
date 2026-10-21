@@ -1,0 +1,1556 @@
+{
+  "note": "Sample inputs for the photo feature. results.<lang> holds a real Qwen answer recorded by scripts/record-photos.js; nothing here is written by hand.",
+  "samples": [
+    {
+      "id": "exhibit",
+      "files": [
+        "exhibit.jpg",
+        "exhibit-label.jpg"
+      ],
+      "results": {
+        "ja": {
+          "mode": "live",
+          "available": true,
+          "model": "qwen3.8-max",
+          "usage": {
+            "completion_tokens": 1421,
+            "completion_tokens_details": {
+              "text_tokens": 1421
+            },
+            "prompt_tokens": 4452,
+            "prompt_tokens_details": {
+              "cached_tokens": 3072,
+              "image_tokens": 3804,
+              "text_tokens": 648
+            },
+            "total_tokens": 5873
+          },
+          "lang": "ja",
+          "images": 2,
+          "kind": "exhibit",
+          "title": "清・嘉慶の青花開光御題詩紋茶托",
+          "summary": "博物館展示の清代嘉慶期（1796-1820年）の青花磁器の茶托です。中央に皇帝の御製詩が書かれています。",
+          "confidence": "high",
+          "items": [
+            {
+              "zh": "佳茗頭綱",
+              "pinyin": "jiā míng tóu gāng",
+              "meaning": "最上級の茶（頭綱は早春の初摘み茶を指す）",
+              "price": null,
+              "note": "御製詩の第1句"
+            },
+            {
+              "zh": "貢澆詩必月團",
+              "pinyin": "gòng jiāo shī bì yuè tuán",
+              "meaning": "貢ぎ物には詩を添え、必ず月団（丸い茶餅）を用いる",
+              "price": null,
+              "note": "御製詩の第2句（文字の判読に一部不確実さあり）"
+            },
+            {
+              "zh": "竹爐添活火石",
+              "pinyin": "zhú lú tiān huó huǒ shí",
+              "meaning": "竹の炉に活きた火を添え、石（銚）で",
+              "price": null,
+              "note": "御製詩の第3句"
+            },
+            {
+              "zh": "銚沸驚湍魚蟹",
+              "pinyin": "diào fèi jīng tuān yú xiè",
+              "meaning": "銚が沸騰し、急流のように魚や蟹の目が現れる",
+              "price": null,
+              "note": "御製詩の第4句"
+            },
+            {
+              "zh": "眼徐颺旗槍影",
+              "pinyin": "yǎn xú yáng qí qiāng yǐng",
+              "meaning": "茶の芽（旗槍）の影がゆっくりと揺らぐ",
+              "price": null,
+              "note": "御製詩の第5句"
+            },
+            {
+              "zh": "細攢一甌清興",
+              "pinyin": "xì cuán yī ōu qīng xìng",
+              "meaning": "一つの甌（茶碗）に清らかな興を細やかに集める",
+              "price": null,
+              "note": "御製詩の第6句"
+            },
+            {
+              "zh": "足春盎避輕寒",
+              "pinyin": "zú chūn àng bì qīng hán",
+              "meaning": "春の盎（器）は軽い寒さを避けるに足りる",
+              "price": null,
+              "note": "御製詩の第7句"
+            },
+            {
+              "zh": "嘉慶丁巳小春",
+              "pinyin": "jiā qìng dīng sì xiǎo chūn",
+              "meaning": "嘉慶丁巳年（1797年）の小春（旧暦10月）",
+              "price": null,
+              "note": "制作年代の銘"
+            },
+            {
+              "zh": "月之中澣",
+              "pinyin": "yuè zhī zhōng huàn",
+              "meaning": "その月の中澣（中旬）",
+              "price": null,
+              "note": "制作時期の詳細"
+            },
+            {
+              "zh": "御製",
+              "pinyin": "yù zhì",
+              "meaning": "皇帝の御製（おんせい）",
+              "price": null,
+              "note": "皇帝自ら作られた詩であることを示す"
+            },
+            {
+              "zh": "青花开光御题诗纹茶托",
+              "pinyin": "qīng huā kāi guāng yù tí shī wén chá tuō",
+              "meaning": "青花開光御題詩紋茶托（染付の開光内に皇帝の題詩がある文様の茶托）",
+              "price": null,
+              "note": "展示ラベルの品名"
+            },
+            {
+              "zh": "清 嘉庆",
+              "pinyin": "qīng jiā qìng",
+              "meaning": "清時代 嘉慶期",
+              "price": null,
+              "note": "展示ラベルの年代"
+            }
+          ],
+          "details": [
+            {
+              "text": "これは清代嘉慶期（1796〜1820年）に作られた青花（染付）の茶托（ちゃたく）です。",
+              "basis": "photo"
+            },
+            {
+              "text": "中央の楕円形の枠（開光）内に、嘉慶帝の御製詩が青花で書かれています。",
+              "basis": "photo"
+            },
+            {
+              "text": "詩の末尾に「嘉慶丁巳」（1797年）の紀年銘と「御製」の文字があります。",
+              "basis": "photo"
+            },
+            {
+              "text": "周囲には唐草文や花卉文が精緻に描かれており、宮廷用の格式高い磁器です。",
+              "basis": "general"
+            },
+            {
+              "text": "茶托は茶碗を載せるための受け皿で、中国の茶文化において重要な道具です。",
+              "basis": "general"
+            }
+          ],
+          "candidates": [],
+          "advice": null,
+          "uncertain": [
+            "詩の一部の文字の正確な判読（筆跡や焼成の状態により）",
+            "この茶托が実際にどの皇帝の茶会で使用されたかの具体的な歴史的背景"
+          ],
+          "warnings": [],
+          "recordedAt": "2026-10-21T02:45:24.016Z"
+        },
+        "en": {
+          "mode": "live",
+          "available": true,
+          "model": "qwen3.8-max",
+          "usage": {
+            "completion_tokens": 1254,
+            "completion_tokens_details": {
+              "text_tokens": 1254
+            },
+            "prompt_tokens": 4452,
+            "prompt_tokens_details": {
+              "cached_tokens": 3456,
+              "image_tokens": 3804,
+              "text_tokens": 648
+            },
+            "total_tokens": 5706
+          },
+          "lang": "en",
+          "images": 2,
+          "kind": "exhibit",
+          "title": "Qing Jiaqing blue-and-white porcelain tea saucer with imperial poem",
+          "summary": "A Qing dynasty Jiaqing-era blue-and-white porcelain tea saucer featuring an imperial poem within a floral border, displayed on a stand with its museum label.",
+          "confidence": "high",
+          "items": [
+            {
+              "zh": "佳茗頭綱",
+              "pinyin": "jiā míng tóu gāng",
+              "meaning": "Fine tea of the first batch",
+              "price": null,
+              "note": "Poem column 1"
+            },
+            {
+              "zh": "貢澆詩必月團",
+              "pinyin": "gòng jiāo shī bì yuè tuán",
+              "meaning": "Tribute brewing requires moon-round tea cakes",
+              "price": null,
+              "note": "Poem column 2"
+            },
+            {
+              "zh": "竹爐添活火石",
+              "pinyin": "zhú lú tiān huó huǒ shí",
+              "meaning": "Bamboo stove fed with lively fire and stone",
+              "price": null,
+              "note": "Poem column 3"
+            },
+            {
+              "zh": "銚沸驚湍魚蟹",
+              "pinyin": "diào fèi jīng tuān yú xiè",
+              "meaning": "Kettle boils like rapids startling fish and crabs",
+              "price": null,
+              "note": "Poem column 4"
+            },
+            {
+              "zh": "眼徐颺旗槍影",
+              "pinyin": "yǎn xú yáng qí qiāng yǐng",
+              "meaning": "Eyes watch flags and spears of tea leaves dance",
+              "price": null,
+              "note": "Poem column 5"
+            },
+            {
+              "zh": "細攢一甌清興",
+              "pinyin": "xì zǎn yī ōu qīng xìng",
+              "meaning": "Gathered finely in one cup of pure delight",
+              "price": null,
+              "note": "Poem column 6"
+            },
+            {
+              "zh": "足春盎避輕寒",
+              "pinyin": "zú chūn àng bì qīng hán",
+              "meaning": "Spring warmth fills the bowl, warding off light chill",
+              "price": null,
+              "note": "Poem column 7"
+            },
+            {
+              "zh": "嘉慶丁巳小春",
+              "pinyin": "jiā qìng dīng sì xiǎo chūn",
+              "meaning": "Jiaqing Ding Si year, early winter (1797)",
+              "price": null,
+              "note": "Date inscription"
+            },
+            {
+              "zh": "月之中澣",
+              "pinyin": "yuè zhī zhōng huàn",
+              "meaning": "Middle decade of the month",
+              "price": null,
+              "note": "Date inscription continued"
+            },
+            {
+              "zh": "御製",
+              "pinyin": "yù zhì",
+              "meaning": "Imperially composed",
+              "price": null,
+              "note": "Signature"
+            },
+            {
+              "zh": "青花开光御题诗纹茶托",
+              "pinyin": "qīng huā kāi guāng yù tí shī wén chá tuō",
+              "meaning": "Blue-and-white tea saucer with reserved panel and imperial poem",
+              "price": null,
+              "note": "Label title"
+            },
+            {
+              "zh": "清 嘉庆",
+              "pinyin": "qīng jiā qìng",
+              "meaning": "Qing Dynasty, Jiaqing reign",
+              "price": null,
+              "note": "Label date"
+            }
+          ],
+          "details": [
+            {
+              "text": "This is a tea saucer (cha tuo) used to hold a teacup, preventing spills and heat damage to tables.",
+              "basis": "general"
+            },
+            {
+              "text": "The poem describes the ritual of brewing fine tribute tea, mentioning bamboo stoves and boiling water.",
+              "basis": "photo"
+            },
+            {
+              "text": "The inscription dates the piece to the Ding Si year of the Jiaqing reign, which corresponds to 1797.",
+              "basis": "general"
+            },
+            {
+              "text": "'Imperially composed' indicates the poem was written by the Jiaqing Emperor himself.",
+              "basis": "photo"
+            },
+            {
+              "text": "The shape is a lobed or flower-form dish, typical for elegant tea service in the Qing court.",
+              "basis": "photo"
+            }
+          ],
+          "candidates": [],
+          "advice": null,
+          "uncertain": [
+            "The exact museum location where this is displayed",
+            "Whether the poem is a well-known work or specific to this object"
+          ],
+          "warnings": [],
+          "recordedAt": "2026-10-21T02:48:22.200Z"
+        },
+        "ko": {
+          "mode": "live",
+          "available": true,
+          "model": "qwen3.8-max",
+          "usage": {
+            "completion_tokens": 1174,
+            "completion_tokens_details": {
+              "text_tokens": 1174
+            },
+            "prompt_tokens": 4454,
+            "prompt_tokens_details": {
+              "cached_tokens": 3072,
+              "image_tokens": 3804,
+              "text_tokens": 650
+            },
+            "total_tokens": 5628
+          },
+          "lang": "ko",
+          "images": 2,
+          "kind": "exhibit",
+          "title": "청화 개광 어제시문 다탁, 청 가경",
+          "summary": "청나라 가경 연간의 청화자기 다탁(찻잔 받침)과 박물관 설명판입니다. 중앙에 황제의 시가 적혀 있습니다.",
+          "confidence": "high",
+          "items": [
+            {
+              "zh": "佳茗頭綱",
+              "pinyin": "jiā míng tóu gāng",
+              "meaning": "최상급 첫물 차",
+              "price": null,
+              "note": "시 제목"
+            },
+            {
+              "zh": "貢澆詩必月團",
+              "pinyin": "gòng jiāo shī bì yuè tuán",
+              "meaning": "진상차에 시를 더하니 반드시 월단차라",
+              "price": null,
+              "note": "시 구절"
+            },
+            {
+              "zh": "竹爐添活火石",
+              "pinyin": "zhú lú tiān huó huǒ shí",
+              "meaning": "대나무 화로에 생불을 더하고 돌",
+              "price": null,
+              "note": "시 구절"
+            },
+            {
+              "zh": "銚沸驚魚蟹",
+              "pinyin": "diào fèi jīng tuān yú xiè",
+              "meaning": "주전자가 끓어 급류처럼 물고기 게",
+              "price": null,
+              "note": "시 구절"
+            },
+            {
+              "zh": "眼徐颺旗槍影",
+              "pinyin": "yǎn xú yáng qí qiāng yǐng",
+              "meaning": "눈에 천천히 흩날리는 기창의 그림자",
+              "price": null,
+              "note": "시 구절"
+            },
+            {
+              "zh": "細攢一甌清興",
+              "pinyin": "xì cuán yī ōu qīng xìng",
+              "meaning": "고이 모은 한 잔의 맑은 흥취",
+              "price": null,
+              "note": "시 구절"
+            },
+            {
+              "zh": "足春盎避輕寒",
+              "pinyin": "zú chūn àng bì qīng hán",
+              "meaning": "봄 항아리가 가벼운 추위를 피하기에 족하다",
+              "price": null,
+              "note": "시 구절"
+            },
+            {
+              "zh": "嘉慶丁巳小春",
+              "pinyin": "jiā qìng dīng sì xiǎo chūn",
+              "meaning": "가경 정사년 소춘(음력 10월)",
+              "price": null,
+              "note": "제작 연도: 1797년"
+            },
+            {
+              "zh": "月之中澣",
+              "pinyin": "yuè zhī zhōng huàn",
+              "meaning": "그달 중순",
+              "price": null,
+              "note": "시기"
+            },
+            {
+              "zh": "御製",
+              "pinyin": "yù zhì",
+              "meaning": "황제가 지음",
+              "price": null,
+              "note": "어진(御製) 표시"
+            },
+            {
+              "zh": "青花开光御题诗纹茶托",
+              "pinyin": "qīng huā kāi guāng yù tí shī wén chá tuō",
+              "meaning": "청화 개광 어제시문 다탁",
+              "price": null,
+              "note": "유물 명칭"
+            },
+            {
+              "zh": "清 嘉庆",
+              "pinyin": "qīng jiā qìng",
+              "meaning": "청나라 가경 연간",
+              "price": null,
+              "note": "연대"
+            }
+          ],
+          "details": [
+            {
+              "text": "청화자기로 만든 찻잔 받침(다탁)입니다.",
+              "basis": "photo"
+            },
+            {
+              "text": "중앙에 가경제의 친필 시가 새겨져 있습니다.",
+              "basis": "photo"
+            },
+            {
+              "text": "'개광'은 도자기 표면에 창을 내어 무늬를 그린 기법입니다.",
+              "basis": "general"
+            },
+            {
+              "text": "가경 정사년은 서기 1797년에 해당합니다.",
+              "basis": "general"
+            }
+          ],
+          "candidates": [],
+          "advice": null,
+          "uncertain": [
+            "현재 소장된 구체적인 박물관 이름"
+          ],
+          "warnings": [],
+          "recordedAt": "2026-10-21T02:50:52.738Z"
+        }
+      }
+    },
+    {
+      "id": "menu",
+      "files": [
+        "shop-menu.jpg"
+      ],
+      "results": {
+        "ja": {
+          "mode": "live",
+          "available": true,
+          "model": "qwen3.8-max",
+          "usage": {
+            "completion_tokens": 2326,
+            "completion_tokens_details": {
+              "text_tokens": 2326
+            },
+            "prompt_tokens": 2520,
+            "prompt_tokens_details": {
+              "cached_tokens": 2048,
+              "image_tokens": 1902,
+              "text_tokens": 618
+            },
+            "total_tokens": 4846
+          },
+          "lang": "ja",
+          "images": 1,
+          "kind": "menu",
+          "title": "高建民酒楼の屋外メニュー看板",
+          "summary": "中国の飲食店「高建民酒楼」の店頭メニュー。ロバ肉料理や火焼、麺類、スープ類の品名と価格が記載されています。",
+          "confidence": "high",
+          "items": [
+            {
+              "zh": "高建民酒楼",
+              "pinyin": "Gāo Jiànmín Jiǔlóu",
+              "meaning": "高建民酒楼（店名）",
+              "price": null,
+              "note": "看板最上部の店名"
+            },
+            {
+              "zh": "招牌驴紫盖",
+              "pinyin": "zhāopái lǘ zǐgài",
+              "meaning": "看板メニュー：ロバ肉の紫蓋（背肉）",
+              "price": null,
+              "note": "この店の主力商品"
+            },
+            {
+              "zh": "小份168元 (4两紫盖肉8小段饼)",
+              "pinyin": "xiǎo fèn 168 yuán (4 liǎng zǐgài ròu 8 xiǎo duàn bǐng)",
+              "meaning": "小盛り168元（紫蓋肉4両、小さな餅8個）",
+              "price": "168元",
+              "note": "小盛りの内容と価格"
+            },
+            {
+              "zh": "大份258元 (6两紫盖肉10小段饼)",
+              "pinyin": "dà fèn 258 yuán (6 liǎng zǐgài ròu 10 xiǎo duàn bǐng)",
+              "meaning": "大盛り258元（紫蓋肉6両、小さな餅10個）",
+              "price": "258元",
+              "note": "大盛りの内容と価格"
+            },
+            {
+              "zh": "主食",
+              "pinyin": "zhǔshí",
+              "meaning": "主食",
+              "price": null,
+              "note": "カテゴリ見出し"
+            },
+            {
+              "zh": "纯焖子火烧",
+              "pinyin": "chún mènzi huǒshāo",
+              "meaning": "純粋な悶子（淀粉固まり）入り火焼",
+              "price": "5元/个",
+              "note": null
+            },
+            {
+              "zh": "鸡蛋火烧(微辣口味)",
+              "pinyin": "jīdàn huǒshāo (wēi là kǒuwèi)",
+              "meaning": "卵入り火焼（微辣味）",
+              "price": "6元/个",
+              "note": "微かに辛い味付け"
+            },
+            {
+              "zh": "焖子肉火烧",
+              "pinyin": "mènzi ròu huǒshāo",
+              "meaning": "悶子と肉入りの火焼",
+              "price": "15元/个",
+              "note": null
+            },
+            {
+              "zh": "肥瘦肉火烧",
+              "pinyin": "féishòu ròu huǒshāo",
+              "meaning": "脂身と赤身肉の火焼",
+              "price": "17元/个",
+              "note": null
+            },
+            {
+              "zh": "纯瘦肉火烧",
+              "pinyin": "chún shòuròu huǒshāo",
+              "meaning": "純赤身肉の火焼",
+              "price": "18元/个",
+              "note": null
+            },
+            {
+              "zh": "板肠火烧",
+              "pinyin": "bǎncháng huǒshāo",
+              "meaning": "板腸（腸詰め）入り火焼",
+              "price": "18元/个",
+              "note": null
+            },
+            {
+              "zh": "西红柿打卤面",
+              "pinyin": "xīhóngshì dǎlǔmiàn",
+              "meaning": "トマトのあんかけ麺",
+              "price": "12元/碗",
+              "note": null
+            },
+            {
+              "zh": "驴肉饸饹面",
+              "pinyin": "lǘròu hélèmiàn",
+              "meaning": "ロバ肉のへー勒麺（絞り出し麺）",
+              "price": "18元/碗",
+              "note": null
+            },
+            {
+              "zh": "手工鸳鸯水饺",
+              "pinyin": "shǒugōng yuānyāng shuǐjiǎo",
+              "meaning": "手作り鴛鴦水餃子",
+              "price": "48元/16个",
+              "note": "2種類の具が入った餃子"
+            },
+            {
+              "zh": "手工韭菜鸡蛋水饺",
+              "pinyin": "shǒugōng jiǔcài jīdàn shuǐjiǎo",
+              "meaning": "手作りニラ卵水餃子",
+              "price": "28元/16个",
+              "note": null
+            },
+            {
+              "zh": "驴打滚 (甜品)",
+              "pinyin": "lǘ dǎ gǔn (tiánpǐn)",
+              "meaning": "ロバ打滾（デザート）",
+              "price": "18元/6个",
+              "note": "きな粉餅のような伝統菓子"
+            },
+            {
+              "zh": "驴肉粒炒饭",
+              "pinyin": "lǘròu lì chǎofàn",
+              "meaning": "ロバ肉角切りチャーハン",
+              "price": "28元/份",
+              "note": null
+            },
+            {
+              "zh": "汤类",
+              "pinyin": "tāng lèi",
+              "meaning": "スープ類",
+              "price": null,
+              "note": "カテゴリ見出し"
+            },
+            {
+              "zh": "小米粥",
+              "pinyin": "xiǎomǐ zhōu",
+              "meaning": "アワのおかゆ",
+              "price": "3元/碗 18元/盆",
+              "note": "碗は1人前、盆は大皿盛り"
+            },
+            {
+              "zh": "西红柿鸡蛋汤",
+              "pinyin": "xīhóngshì jīdàn tāng",
+              "meaning": "トマトと卵のスープ",
+              "price": "5元/碗 18元/盆",
+              "note": null
+            },
+            {
+              "zh": "全肉汤",
+              "pinyin": "quán ròu tāng",
+              "meaning": "オールミートスープ",
+              "price": "22元/碗 58元/盆",
+              "note": null
+            },
+            {
+              "zh": "鸳鸯馄饨",
+              "pinyin": "yuānyāng húntun",
+              "meaning": "鴛鴦ワンタン",
+              "price": "8元/碗 42元/盆",
+              "note": null
+            },
+            {
+              "zh": "疙瘩汤",
+              "pinyin": "gēda tāng",
+              "meaning": "すいとんスープ",
+              "price": "26元/盆",
+              "note": null
+            },
+            {
+              "zh": "酸辣汤",
+              "pinyin": "suānlà tāng",
+              "meaning": "サンラータン",
+              "price": "26元/盆",
+              "note": null
+            }
+          ],
+          "details": [
+            {
+              "text": "店名は「高建民酒楼」で、ロバ肉料理を専門とする飲食店です。",
+              "basis": "photo"
+            },
+            {
+              "text": "看板メニューの「驴紫盖」はロバの背肉を使った料理で、餅（パン）と一緒に提供されます。",
+              "basis": "photo"
+            },
+            {
+              "text": "主食には「火烧」と呼ばれる焼きパンや、麺類、餃子、チャーハンが揃っています。",
+              "basis": "photo"
+            },
+            {
+              "text": "スープ類は1人用の「碗」と大人数用の「盆」の2つのサイズで価格が設定されています。",
+              "basis": "photo"
+            },
+            {
+              "text": "価格は人民元（元）表記で、主食は5元から、スープは3元からと比較的安価です。",
+              "basis": "photo"
+            }
+          ],
+          "candidates": [],
+          "advice": "この店はロバ肉料理が名物です。看板の「驴紫盖」は高価ですが主力商品です。手軽に試すなら「驴肉火烧」（ロバ肉の焼きパン）や「驴肉饸饹面」（ロバ肉麺）がおすすめです。注文時は「碗」（1人前）か「盆」（大皿）かを指定してください。",
+          "uncertain": [
+            "ロバ肉以外の肉の種類（豚肉や牛肉が使われているか）",
+            "具体的な辛さのレベル",
+            "支払い方法（現金のみか電子決済可か）"
+          ],
+          "warnings": [
+            "ロバ肉（驴肉）を使用した料理が多く含まれています",
+            "豚肉が含まれる可能性があります",
+            "一部微辣（微かに辛い）の表記があります"
+          ],
+          "recordedAt": "2026-10-21T02:46:15.797Z"
+        },
+        "en": {
+          "mode": "live",
+          "available": true,
+          "model": "qwen3.8-max",
+          "usage": {
+            "completion_tokens": 2275,
+            "completion_tokens_details": {
+              "text_tokens": 2275
+            },
+            "prompt_tokens": 2520,
+            "prompt_tokens_details": {
+              "cached_tokens": 1152,
+              "image_tokens": 1902,
+              "text_tokens": 618
+            },
+            "total_tokens": 4795
+          },
+          "lang": "en",
+          "images": 1,
+          "kind": "menu",
+          "title": "Gao Jianmin Restaurant outdoor menu board with donkey dishes",
+          "summary": "An outdoor A-frame menu for Gao Jianmin Restaurant listing donkey-meat specialties,火烧 flatbreads, noodles, dumplings and soups with prices in yuan.",
+          "confidence": "high",
+          "items": [
+            {
+              "zh": "高建民酒楼",
+              "pinyin": "Gāo Jiànmín Jiǔlóu",
+              "meaning": "Gao Jianmin Restaurant",
+              "price": null,
+              "note": "Restaurant name on the sign above the menu"
+            },
+            {
+              "zh": "招牌驴紫盖",
+              "pinyin": "zhāopái lǘ zǐgài",
+              "meaning": "Signature donkey purple-cover (braised donkey meat)",
+              "price": null,
+              "note": "Headline signature dish"
+            },
+            {
+              "zh": "小份168元（4两紫盖肉8小段饼）",
+              "pinyin": "xiǎo fèn 168 yuán (4 liǎng zǐgài ròu 8 xiǎo duàn bǐng)",
+              "meaning": "Small portion 168 yuan (4 liang purple-cover meat, 8 small flatbread pieces)",
+              "price": "168元",
+              "note": null
+            },
+            {
+              "zh": "大份258元（6两紫盖肉10小段饼）",
+              "pinyin": "dà fèn 258 yuán (6 liǎng zǐgài ròu 10 xiǎo duàn bǐng)",
+              "meaning": "Large portion 258 yuan (6 liang purple-cover meat, 10 small flatbread pieces)",
+              "price": "258元",
+              "note": null
+            },
+            {
+              "zh": "主食",
+              "pinyin": "zhǔshí",
+              "meaning": "Staple foods",
+              "price": null,
+              "note": "Section header"
+            },
+            {
+              "zh": "纯焖子火烧",
+              "pinyin": "chún mèngzi huǒshāo",
+              "meaning": "Plain starch-jelly flatbread",
+              "price": "5元/个",
+              "note": null
+            },
+            {
+              "zh": "鸡蛋火烧(微辣口味)",
+              "pinyin": "jīdàn huǒshāo (wēi là kǒuwèi)",
+              "meaning": "Egg flatbread (mildly spicy)",
+              "price": "6元/个",
+              "note": null
+            },
+            {
+              "zh": "焖子肉火烧",
+              "pinyin": "mèngzi ròu huǒshāo",
+              "meaning": "Starch-jelly and meat flatbread",
+              "price": "15元/个",
+              "note": null
+            },
+            {
+              "zh": "肥瘦肉火烧",
+              "pinyin": "féishòu ròu huǒshāo",
+              "meaning": "Fatty-and-lean meat flatbread",
+              "price": "17元/个",
+              "note": null
+            },
+            {
+              "zh": "纯瘦肉火烧",
+              "pinyin": "chún shòuròu huǒshāo",
+              "meaning": "Pure lean meat flatbread",
+              "price": "18元/个",
+              "note": null
+            },
+            {
+              "zh": "板肠火烧",
+              "pinyin": "bǎncháng huǒshāo",
+              "meaning": "Intestine flatbread",
+              "price": "18元/个",
+              "note": null
+            },
+            {
+              "zh": "西红柿打卤面",
+              "pinyin": "xīhóngshì dǎlǔmiàn",
+              "meaning": "Tomato gravy noodles",
+              "price": "12元/碗",
+              "note": null
+            },
+            {
+              "zh": "驴肉饸饹面",
+              "pinyin": "lǘròu hélèmiàn",
+              "meaning": "Donkey-melt hele noodles",
+              "price": "18元/碗",
+              "note": null
+            },
+            {
+              "zh": "手工鸳鸯水饺",
+              "pinyin": "shǒugōng yuānyāng shuǐjiǎo",
+              "meaning": "Handmade mandarin-duck dumplings",
+              "price": "48元/16个",
+              "note": null
+            },
+            {
+              "zh": "手工韭菜鸡蛋水饺",
+              "pinyin": "shǒugōng jiǔcài jīdàn shuǐjiǎo",
+              "meaning": "Handmade chive and egg dumplings",
+              "price": "28元/16个",
+              "note": null
+            },
+            {
+              "zh": "驴打滚（甜品）",
+              "pinyin": "lǘdǎgǔn (tiánpǐn)",
+              "meaning": "Lvdagun rolling donkey (sweet dessert)",
+              "price": "18元/6个",
+              "note": null
+            },
+            {
+              "zh": "驴肉粒炒饭",
+              "pinyin": "lǘròu lì chǎofàn",
+              "meaning": "Diced donkey-meat fried rice",
+              "price": "28元/份",
+              "note": null
+            },
+            {
+              "zh": "汤类",
+              "pinyin": "tāng lèi",
+              "meaning": "Soups",
+              "price": null,
+              "note": "Section header"
+            },
+            {
+              "zh": "小米粥",
+              "pinyin": "xiǎomǐ zhōu",
+              "meaning": "Millet porridge",
+              "price": "3元/碗 18元/盆",
+              "note": "priced per bowl or per basin"
+            },
+            {
+              "zh": "西红柿鸡蛋汤",
+              "pinyin": "xīhóngshì jīdàn tāng",
+              "meaning": "Tomato and egg soup",
+              "price": "5元/碗 18元/盆",
+              "note": null
+            },
+            {
+              "zh": "全肉汤",
+              "pinyin": "quánròu tāng",
+              "meaning": "All-meat soup",
+              "price": "22元/碗 58元/盆",
+              "note": null
+            },
+            {
+              "zh": "鸳鸯馄饨",
+              "pinyin": "yuānyāng húntun",
+              "meaning": "Mandarin-duck wontons",
+              "price": "8元/碗 42元/盆",
+              "note": null
+            },
+            {
+              "zh": "疙瘩汤",
+              "pinyin": "gēda tāng",
+              "meaning": "Dough-drop soup",
+              "price": "26元/盆",
+              "note": null
+            },
+            {
+              "zh": "酸辣汤",
+              "pinyin": "suānlà tāng",
+              "meaning": "Hot and sour soup",
+              "price": "26元/盆",
+              "note": null
+            }
+          ],
+          "details": [
+            {
+              "text": "This is Gao Jianmin Restaurant, a donkey-meat specialty eatery; the logo shows a man's portrait.",
+              "basis": "photo"
+            },
+            {
+              "text": "Signature dish is braised donkey 'purple-cover' meat served with flatbread, 168 or 258 yuan.",
+              "basis": "photo"
+            },
+            {
+              "text": "Huoshao are baked stuffed flatbreads, sold per piece from 5 to 18 yuan.",
+              "basis": "general"
+            },
+            {
+              "text": "Soups are priced per bowl (碗) or larger basin (盆); millet porridge is cheapest at 3 yuan.",
+              "basis": "photo"
+            },
+            {
+              "text": "Lvdagun is a sweet glutinous-rice roll dessert, not meat despite the name meaning 'rolling donkey'.",
+              "basis": "general"
+            }
+          ],
+          "candidates": [],
+          "advice": "The restaurant specializes in donkey meat. Its signature is braised donkey 'purple-cover' with flatbread (168/258 yuan). Cheaper options include huoshao flatbreads (5-18 yuan each), noodles, dumplings and soups. Ask staff which meats contain donkey versus pork if you have preferences.",
+          "uncertain": [
+            "Whether the meat flatbreads and all-meat soup use donkey, pork or other meat",
+            "Exact spice level of dishes beyond the mildly-spicy egg flatbread",
+            "Opening hours and whether the board reflects current availability"
+          ],
+          "warnings": [
+            "Many dishes contain donkey meat",
+            "Egg flatbread is marked mildly spicy",
+            "Some flatbreads may contain pork or intestine"
+          ],
+          "recordedAt": "2026-10-21T02:49:13.502Z"
+        },
+        "ko": {
+          "mode": "live",
+          "available": true,
+          "model": "qwen3.8-max",
+          "usage": {
+            "completion_tokens": 2067,
+            "completion_tokens_details": {
+              "text_tokens": 2067
+            },
+            "prompt_tokens": 2522,
+            "prompt_tokens_details": {
+              "cached_tokens": 1152,
+              "image_tokens": 1902,
+              "text_tokens": 620
+            },
+            "total_tokens": 4589
+          },
+          "lang": "ko",
+          "images": 1,
+          "kind": "menu",
+          "title": "가오젠민 주루의 당나귀 요리 메뉴판",
+          "summary": "중국 식당 '가오젠민 주루'의 입간판 메뉴입니다. 대표 메뉴인 당나귀 고기 요리와 각종 화샤오(빵), 면, 만두, 탕류의 가격이 적혀 있습니다.",
+          "confidence": "high",
+          "items": [
+            {
+              "zh": "高建民酒楼",
+              "pinyin": "Gāo Jiànmín Jiǔlóu",
+              "meaning": "가오젠민 주루 (식당 이름)",
+              "price": null,
+              "note": "상단 간판에 적힌 식당 명칭"
+            },
+            {
+              "zh": "招牌驴紫盖",
+              "pinyin": "zhāopái lǘ zǐgài",
+              "meaning": "대표 메뉴: 당나귀 등심 덮밥/요리",
+              "price": "小份168元 / 大份258元",
+              "note": "소자는 4냥 고기와 빵 8조각, 대자는 6냥 고기와 빵 10조각 포함"
+            },
+            {
+              "zh": "主食",
+              "pinyin": "zhǔshí",
+              "meaning": "주식 (메인 요리)",
+              "price": null,
+              "note": "카테고리 제목"
+            },
+            {
+              "zh": "纯焖子火烧",
+              "pinyin": "chún mèngzi huǒshāo",
+              "meaning": "순수 멍즈 화샤오 (전분 젤리 빵)",
+              "price": "5元/个",
+              "note": null
+            },
+            {
+              "zh": "鸡蛋火烧(微辣口味)",
+              "pinyin": "jīdàn huǒshāo (wēi là kǒuwèi)",
+              "meaning": "계란 화샤오 (약간 매운 맛)",
+              "price": "6元/个",
+              "note": null
+            },
+            {
+              "zh": "焖子肉火烧",
+              "pinyin": "mèngzi ròu huǒshāo",
+              "meaning": "멍즈 고기 화샤오",
+              "price": "15元/个",
+              "note": null
+            },
+            {
+              "zh": "肥瘦肉火烧",
+              "pinyin": "féishòu ròu huǒshāo",
+              "meaning": "비계와 살코기 화샤오",
+              "price": "17元/个",
+              "note": null
+            },
+            {
+              "zh": "纯瘦肉火烧",
+              "pinyin": "chún shòuròu huǒshāo",
+              "meaning": "순수 살코기 화샤오",
+              "price": "18元/个",
+              "note": null
+            },
+            {
+              "zh": "板肠火烧",
+              "pinyin": "bǎncháng huǒshāo",
+              "meaning": "판창(창자) 화샤오",
+              "price": "18元/个",
+              "note": null
+            },
+            {
+              "zh": "西红柿打卤面",
+              "pinyin": "xīhóngshì dǎlǔmiàn",
+              "meaning": "토마토 소스 국수",
+              "price": "12元/碗",
+              "note": null
+            },
+            {
+              "zh": "驴肉饸饹面",
+              "pinyin": "lǘròu hélèmiàn",
+              "meaning": "당나귀 고기 허러면",
+              "price": "18元/碗",
+              "note": null
+            },
+            {
+              "zh": "手工鸳鸯水饺",
+              "pinyin": "shǒugōng yuānyāng shuǐjiǎo",
+              "meaning": "수제 위안양(쌍색) 물만두",
+              "price": "48元/16个",
+              "note": null
+            },
+            {
+              "zh": "手工韭菜鸡蛋水饺",
+              "pinyin": "shǒugōng jiǔcài jīdàn shuǐjiǎo",
+              "meaning": "수제 부추 계란 물만두",
+              "price": "28元/16个",
+              "note": null
+            },
+            {
+              "zh": "驴打滚(甜品)",
+              "pinyin": "lǘ dǎ gǔn (tiánpǐn)",
+              "meaning": "뤼다군 (디저트/찹쌀 경단)",
+              "price": "18元/6个",
+              "note": null
+            },
+            {
+              "zh": "驴肉粒炒饭",
+              "pinyin": "lǘròu lì chǎofàn",
+              "meaning": "당나귀 고기 볶음밥",
+              "price": "28元/份",
+              "note": null
+            },
+            {
+              "zh": "汤类",
+              "pinyin": "tāng lèi",
+              "meaning": "탕류",
+              "price": null,
+              "note": "카테고리 제목"
+            },
+            {
+              "zh": "小米粥",
+              "pinyin": "xiǎomǐ zhōu",
+              "meaning": "좁쌀 죽",
+              "price": "3元/碗 18元/盆",
+              "note": "그릇 또는 대야 단위 선택 가능"
+            },
+            {
+              "zh": "西红柿鸡蛋汤",
+              "pinyin": "xīhóngshì jīdàn tāng",
+              "meaning": "토마토 계란탕",
+              "price": "5元/碗 18元/盆",
+              "note": null
+            },
+            {
+              "zh": "全肉汤",
+              "pinyin": "quán ròu tāng",
+              "meaning": "모듬 고기탕",
+              "price": "22元/碗 58元/盆",
+              "note": null
+            },
+            {
+              "zh": "鸳鸯馄饨",
+              "pinyin": "yuānyāng húntun",
+              "meaning": "위안양(쌍색) 완탕",
+              "price": "8元/碗 42元/盆",
+              "note": null
+            },
+            {
+              "zh": "疙瘩汤",
+              "pinyin": "gēda tāng",
+              "meaning": "수제비국 (거다탕)",
+              "price": "26元/盆",
+              "note": null
+            },
+            {
+              "zh": "酸辣汤",
+              "pinyin": "suānlà tāng",
+              "meaning": "새콤매콤한 탕 (산라탕)",
+              "price": "26元/盆",
+              "note": null
+            }
+          ],
+          "details": [
+            {
+              "text": "이 식당은 당나귀 고기 요리를 전문으로 하는 곳입니다.",
+              "basis": "photo"
+            },
+            {
+              "text": "화샤오(火烧)는 중국 북방 지역의 전통적인 구운 빵입니다.",
+              "basis": "general"
+            },
+            {
+              "text": "메뉴판 상단의 인물 초상화는 식당 창업자나 상징일 가능성이 높습니다.",
+              "basis": "photo"
+            },
+            {
+              "text": "가격은 중국 위안(RMB) 기준이며, 1개 또는 1그릇 단위로 표기되어 있습니다.",
+              "basis": "photo"
+            }
+          ],
+          "candidates": [],
+          "advice": "이곳은 당나귀 고기를 활용한 화샤오(빵)와 면 요리가 특징입니다. 대표 메뉴인 '당나귀 등심(驴紫盖)'을 주문하면 고기와 함께 작은 빵 조각이 제공됩니다. 식사로 당나귀 고기 볶음밥이나 허러면을 곁들일 수 있습니다.",
+          "uncertain": [
+            "당나귀 고기의 구체적인 부위나 조리 방식의 상세한 맛",
+            "식당의 정확한 위치나 영업 시간"
+          ],
+          "warnings": [
+            "당나귀 고기가 주재료이므로 알레르기나 기호에 주의하세요",
+            "일부 메뉴(계란 화샤오 등)에 약간의 매운맛이 포함될 수 있습니다"
+          ],
+          "recordedAt": "2026-10-21T02:51:51.513Z"
+        }
+      }
+    },
+    {
+      "id": "dish-a",
+      "files": [
+        "dish-a.jpg"
+      ],
+      "results": {
+        "ja": {
+          "mode": "live",
+          "available": true,
+          "model": "qwen3.8-max",
+          "usage": {
+            "completion_tokens": 463,
+            "completion_tokens_details": {
+              "text_tokens": 463
+            },
+            "prompt_tokens": 2520,
+            "prompt_tokens_details": {
+              "cached_tokens": 2048,
+              "image_tokens": 1902,
+              "text_tokens": 618
+            },
+            "total_tokens": 2983
+          },
+          "lang": "ja",
+          "images": 1,
+          "kind": "dish",
+          "title": "揚げ三角形点心（炸三角など）",
+          "summary": "籠に盛られた三角形の揚げ点心です。奥に黄色いタレの小皿が見えます。具体的な料理名や中身は写真だけでは断定できません。",
+          "confidence": "medium",
+          "items": [],
+          "details": [
+            {
+              "text": "三角形に包んで揚げた茶色い点心が、紙を敷いた籠に盛られています。",
+              "basis": "photo"
+            },
+            {
+              "text": "奥に黄色い付けダレと思われる小皿があります。",
+              "basis": "photo"
+            },
+            {
+              "text": "中国の飲食店で提供される揚げ点心の一種とみられます。",
+              "basis": "general"
+            },
+            {
+              "text": "中身は肉や野菜、甘い餡など店により異なります。",
+              "basis": "general"
+            }
+          ],
+          "candidates": [
+            {
+              "zh": "炸三角",
+              "pinyin": "zhá sān jiǎo",
+              "meaning": "揚げ三角点心"
+            },
+            {
+              "zh": "咖喱角",
+              "pinyin": "gā lí jiǎo",
+              "meaning": "カレー Samosa"
+            },
+            {
+              "zh": "春卷",
+              "pinyin": "chūn juǎn",
+              "meaning": "春巻き（三角形に包んだもの）"
+            }
+          ],
+          "advice": "揚げ点心の一種です。中身が分からないため、注文時に具材（肉・野菜・甘味など）を確認してください。添えられたタレを付けて食べます。",
+          "uncertain": [
+            "具体的な料理名",
+            "皮や中身の具材",
+            "タレの種類",
+            "価格"
+          ],
+          "warnings": [],
+          "recordedAt": "2026-10-21T02:46:39.597Z"
+        },
+        "en": {
+          "mode": "live",
+          "available": true,
+          "model": "qwen3.8-max",
+          "usage": {
+            "completion_tokens": 607,
+            "completion_tokens_details": {
+              "text_tokens": 607
+            },
+            "prompt_tokens": 2520,
+            "prompt_tokens_details": {
+              "cached_tokens": 1152,
+              "image_tokens": 1902,
+              "text_tokens": 618
+            },
+            "total_tokens": 3127
+          },
+          "lang": "en",
+          "images": 1,
+          "kind": "dish",
+          "title": "Fried triangular pastries with dipping sauce",
+          "summary": "A basket of golden-brown, deep-fried triangular pastries served on a paper doily with a small bowl of yellow dipping sauce. A table number card is visible in the background.",
+          "confidence": "medium",
+          "items": [
+            {
+              "zh": "60",
+              "pinyin": "liù shí",
+              "meaning": "60 (likely a table number)",
+              "price": null,
+              "note": "Printed on a green and white card behind the food basket."
+            }
+          ],
+          "details": [
+            {
+              "text": "Deep-fried triangular pastries with a crispy, golden-brown exterior.",
+              "basis": "photo"
+            },
+            {
+              "text": "Served in a woven wire basket lined with a white paper doily.",
+              "basis": "photo"
+            },
+            {
+              "text": "Accompanied by a small white bowl of yellowish dipping sauce.",
+              "basis": "photo"
+            },
+            {
+              "text": "Likely a savory snack or appetizer common in Chinese cuisine.",
+              "basis": "general"
+            },
+            {
+              "text": "The filling inside the pastry is not visible from the outside.",
+              "basis": "photo"
+            }
+          ],
+          "candidates": [
+            {
+              "zh": "炸三角",
+              "pinyin": "zhá sān jiǎo",
+              "meaning": "Fried triangle (a traditional Beijing snack)"
+            },
+            {
+              "zh": "咖喱角",
+              "pinyin": "gā lí jiǎo",
+              "meaning": "Curry puff / Samosa"
+            },
+            {
+              "zh": "炸春卷",
+              "pinyin": "zhá chūn juǎn",
+              "meaning": "Fried spring roll (variant shape)"
+            }
+          ],
+          "advice": "Ask the server what the filling is inside the fried triangles, as it could be meat, vegetables, or sweet paste. Confirm if the yellow sauce is garlic, vinegar, or curry-based before dipping.",
+          "uncertain": [
+            "The specific ingredients of the filling inside the pastry",
+            "The exact composition of the yellow dipping sauce",
+            "Whether the dish is savory or sweet"
+          ],
+          "warnings": [
+            "Deep-fried food may be greasy",
+            "Filling may contain meat or allergens not visible externally"
+          ],
+          "recordedAt": "2026-10-21T02:49:46.168Z"
+        },
+        "ko": {
+          "mode": "live",
+          "available": true,
+          "model": "qwen3.8-max",
+          "usage": {
+            "completion_tokens": 469,
+            "completion_tokens_details": {
+              "text_tokens": 469
+            },
+            "prompt_tokens": 2522,
+            "prompt_tokens_details": {
+              "cached_tokens": 1152,
+              "image_tokens": 1902,
+              "text_tokens": 620
+            },
+            "total_tokens": 2991
+          },
+          "lang": "ko",
+          "images": 1,
+          "kind": "dish",
+          "title": "삼각형 튀김 요리와 곁들임 소스",
+          "summary": "바구니에 담긴 삼각형 모양의 갈색 튀김 음식과 노란색 딥 소스입니다. 정확한 메뉴명은 사진에 표시되지 않았습니다.",
+          "confidence": "medium",
+          "items": [],
+          "details": [
+            {
+              "text": "삼각형 모양으로 튀겨진 갈색 반죽 음식이 바구니에 담겨 있습니다.",
+              "basis": "photo"
+            },
+            {
+              "text": "옆에 노란색 액체 소스가 작은 그릇에 함께 제공됩니다.",
+              "basis": "photo"
+            },
+            {
+              "text": "중국 식당에서 흔히 나오는 전식이나 간식류 튀김으로 보입니다.",
+              "basis": "general"
+            },
+            {
+              "text": "속 재료는 외관만으로는 확인할 수 없어 주문 시 문의가 필요합니다.",
+              "basis": "general"
+            }
+          ],
+          "candidates": [
+            {
+              "zh": "炸三角",
+              "pinyin": "zhá sān jiǎo",
+              "meaning": "삼각 튀김"
+            },
+            {
+              "zh": "咖喱角",
+              "pinyin": "gā lí jiǎo",
+              "meaning": "카레 퍼프"
+            },
+            {
+              "zh": "炸春卷",
+              "pinyin": "zhá chūn juǎn",
+              "meaning": "튀김 춘권"
+            }
+          ],
+          "advice": "사진만으로는 정확한 메뉴명과 속 재료를 알 수 없습니다. 주문 전 서버에게 이름과 알레르기 유발 성분을 확인하십시오.",
+          "uncertain": [
+            "정확한 요리명",
+            "반죽 속 필링 재료",
+            "소스의 구체적인 종류와 맛",
+            "알레르기 유발 성분 포함 여부"
+          ],
+          "warnings": [],
+          "recordedAt": "2026-10-21T02:52:10.567Z"
+        }
+      }
+    },
+    {
+      "id": "dish-b",
+      "files": [
+        "dish-b.jpg"
+      ],
+      "results": {
+        "ja": {
+          "mode": "live",
+          "available": true,
+          "model": "qwen3.8-max",
+          "usage": {
+            "completion_tokens": 572,
+            "completion_tokens_details": {
+              "text_tokens": 572
+            },
+            "prompt_tokens": 2520,
+            "prompt_tokens_details": {
+              "cached_tokens": 2048,
+              "image_tokens": 1902,
+              "text_tokens": 618
+            },
+            "total_tokens": 3092
+          },
+          "lang": "ja",
+          "images": 1,
+          "kind": "dish",
+          "title": "炒めた淀粉製の角切り料理（煎粉など）",
+          "summary": "半透明の茶色い角切りを、唐辛子・香菜・ニンニク・長ネギと共に炒めた一皿です。中国の淀粉（でんぷん）菓子「煎粉」や「焖子」に似ています。",
+          "confidence": "medium",
+          "items": [],
+          "details": [
+            {
+              "text": "主材は半透明で茶色がかった四角い塊で、表面に焼き目がついています。",
+              "basis": "photo"
+            },
+            {
+              "text": "赤い乾燥唐辛子、刻んだニンニク、香菜、黄白色のネギ類がトッピングされています。",
+              "basis": "photo"
+            },
+            {
+              "text": "デンプンを固めて角切りにし、油で焼いてから調味料と和える調理法が一般的です。",
+              "basis": "general"
+            },
+            {
+              "text": "地域により「煎粉」「焖子」「皮渣」など名称や食感が異なります。",
+              "basis": "general"
+            }
+          ],
+          "candidates": [
+            {
+              "zh": "煎粉",
+              "pinyin": "jiān fěn",
+              "meaning": "煎粉（デンプンを焼いた料理）"
+            },
+            {
+              "zh": "焖子",
+              "pinyin": "mèn zi",
+              "meaning": "焖子（デンプン固め料理）"
+            },
+            {
+              "zh": "炒皮渣",
+              "pinyin": "chǎo pí zhā",
+              "meaning": "炒皮渣（デンプン残渣の炒め物）"
+            }
+          ],
+          "advice": "デンプン由来の食感を楽しむ料理です。唐辛子が入っているため辛味があります。正確な名称や原材料（小麦・サツマイモ等）は店員に確認してください。",
+          "uncertain": [
+            "具体的なデンプンの原料（緑豆、サツマイモ、小麦など）",
+            "正確な地方名や料理名",
+            "辛さの程度"
+          ],
+          "warnings": [
+            "唐辛子が含まれており辛いです",
+            "デンプン・小麦由来の可能性があります"
+          ],
+          "recordedAt": "2026-10-21T02:47:07.350Z"
+        },
+        "en": {
+          "mode": "live",
+          "available": true,
+          "model": "qwen3.8-max",
+          "usage": {
+            "completion_tokens": 584,
+            "completion_tokens_details": {
+              "text_tokens": 584
+            },
+            "prompt_tokens": 2520,
+            "prompt_tokens_details": {
+              "cached_tokens": 1024,
+              "image_tokens": 1902,
+              "text_tokens": 618
+            },
+            "total_tokens": 3104
+          },
+          "lang": "en",
+          "images": 1,
+          "kind": "dish",
+          "title": "Stir-fried starch jelly squares with chili, garlic and herbs",
+          "summary": "A plate of pan-fried, translucent brown starch jelly squares (likely liangfen or a regional variant) tossed with dried red chilies, minced garlic, scallions and cilantro.",
+          "confidence": "medium",
+          "items": [],
+          "details": [
+            {
+              "text": "Rectangular slices of firm, semi-translucent starch jelly, pan-fried until lightly browned.",
+              "basis": "photo"
+            },
+            {
+              "text": "Garnished with dried red chili segments, chopped garlic, green onion and cilantro.",
+              "basis": "photo"
+            },
+            {
+              "text": "Likely a savory, spicy appetizer or side dish common in northern or southwestern China.",
+              "basis": "general"
+            },
+            {
+              "text": "Texture is typically chewy and soft inside with slightly crisp edges from frying.",
+              "basis": "general"
+            }
+          ],
+          "candidates": [
+            {
+              "zh": "炒凉粉",
+              "pinyin": "chǎo liáng fěn",
+              "meaning": "Stir-fried starch jelly"
+            },
+            {
+              "zh": "煎焖子",
+              "pinyin": "jiān mèn zi",
+              "meaning": "Pan-fried starch cake (Tianjin/Dalian style)"
+            },
+            {
+              "zh": "炒灌肠",
+              "pinyin": "chǎo guàn cháng",
+              "meaning": "Stir-fried starch sausage (Beijing snack, despite the name, often just starch)"
+            }
+          ],
+          "advice": "This is likely a starch-based dish like 'Chao Liangfen' or 'Jian Menzi'. It is usually vegetarian but cooked with oil and aromatics. Ask the server if it contains meat stock or lard if you have dietary restrictions. It is typically served as a shared appetizer.",
+          "uncertain": [
+            "Exact type of starch used (mung bean, sweet potato, or pea)",
+            "Whether animal fat or stock was used in cooking",
+            "Specific regional name of the dish",
+            "Level of spiciness"
+          ],
+          "warnings": [
+            "Contains chili (spicy)",
+            "Contains garlic and onion",
+            "May be cooked with lard or meat stock (not strictly vegan unless confirmed)"
+          ],
+          "recordedAt": "2026-10-21T02:50:10.324Z"
+        },
+        "ko": {
+          "mode": "live",
+          "available": true,
+          "model": "qwen3.8-max",
+          "usage": {
+            "completion_tokens": 586,
+            "completion_tokens_details": {
+              "text_tokens": 586
+            },
+            "prompt_tokens": 2522,
+            "prompt_tokens_details": {
+              "cached_tokens": 1152,
+              "image_tokens": 1902,
+              "text_tokens": 620
+            },
+            "total_tokens": 3108
+          },
+          "lang": "ko",
+          "images": 1,
+          "kind": "dish",
+          "title": "매콤하게 볶은 중국식 전분 젤리 요리",
+          "summary": "네모난 전분 젤리를 고추, 마늘, 파 등과 함께 매콤하게 볶아낸 중국 요리입니다. 사진에 읽을 수 있는 글자는 없습니다.",
+          "confidence": "medium",
+          "items": [],
+          "details": [
+            {
+              "text": "반투명한 갈색의 네모난 식재료는 녹두나 고구마 전분으로 만든 젤리입니다.",
+              "basis": "general"
+            },
+            {
+              "text": "건고추, 마늘, 파, 고수 등이 토핑으로 올라가 있어 매콤하고 향긋합니다.",
+              "basis": "photo"
+            },
+            {
+              "text": "겉면을 살짝 튀기거나 구운 후 양념과 함께 빠르게 볶아내는 방식입니다.",
+              "basis": "general"
+            },
+            {
+              "text": "쫄깃하면서도 부드러운 식감이 특징인 중국의 대표적인 길거리 음식 또는 반찬입니다.",
+              "basis": "general"
+            }
+          ],
+          "candidates": [
+            {
+              "zh": "炒焖子",
+              "pinyin": "chǎo mèn zi",
+              "meaning": "볶은 먼쯔 (전분 젤리 음)"
+            },
+            {
+              "zh": "炒凉粉",
+              "pinyin": "chǎo liáng fěn",
+              "meaning": "볶은 량펀 (전분 묵 볶음)"
+            },
+            {
+              "zh": "煎粉",
+              "pinyin": "jiān fěn",
+              "meaning": "구운 전분 묵"
+            }
+          ],
+          "advice": "이 요리는 보통 '차오 먼쯔(炒焖子)'나 '차오 량펀(炒凉粉)'으로 불립니다. 주문 시 매운 정도를 조절할 수 있는지 물어보시고, 땅콩 알레르기가 있다면 토핑 확인을 요청하세요.",
+          "uncertain": [
+            "정확한 전분의 종류 (녹두, 고구마, 완두 등)",
+            "요리의 정확한 지역명 및 간의 세기",
+            "사용된 기름의 종류와 정확한 칼로리"
+          ],
+          "warnings": [
+            "건고추가 보여 매울 수 있습니다",
+            "땅콩 토핑이 포함되어 있을 수 있습니다"
+          ],
+          "recordedAt": "2026-10-21T02:52:39.159Z"
+        }
+      }
+    }
+  ]
+}

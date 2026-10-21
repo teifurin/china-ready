@@ -1,0 +1,14 @@
+{
+ "fetchedAt": "2026-10-20T08:55:18.592Z",
+ "command": "search-poi",
+ "args": {
+  "city-name": "北京",
+  "category": "市集"
+ },
+ "response": {
+  "data": null,
+  "message": "empty",
+  "status": 0,
+  "systemMessage": null
+ }
+}

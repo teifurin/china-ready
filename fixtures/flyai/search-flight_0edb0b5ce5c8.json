@@ -1,0 +1,533 @@
+{
+ "fetchedAt": "2026-10-20T08:55:18.579Z",
+ "command": "search-flight",
+ "args": {
+  "origin": "首尔",
+  "destination": "北京",
+  "dep-date": "2026-12-03",
+  "sort-type": 3
+ },
+ "response": {
+  "data": {
+   "itemList": [
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "CJU",
+         "arrCityName": "济州岛",
+         "arrDateTime": "2026-12-03 16:55:00",
+         "arrStationCode": "CJU",
+         "arrStationName": "济州国际机场",
+         "arrStationShortName": "济州",
+         "arrTerm": "",
+         "arrWeekAbbrName": "周四",
+         "depCityAbroad": null,
+         "depCityCode": "SEL",
+         "depCityName": "首尔",
+         "depDateTime": "2026-12-03 15:40:00",
+         "depStationCode": "GMP",
+         "depStationName": "金浦国际机场",
+         "depStationShortName": "金浦",
+         "depTerm": "D",
+         "depWeekAbbrName": "周四",
+         "duration": "75",
+         "marketingTransportName": "泰瑞航空",
+         "marketingTransportNo": "TW721",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        },
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "BJS",
+         "arrCityName": "北京",
+         "arrDateTime": "2026-12-03 21:00:00",
+         "arrStationCode": "PKX",
+         "arrStationName": "大兴国际机场",
+         "arrStationShortName": "大兴",
+         "arrTerm": "",
+         "arrWeekAbbrName": "周四",
+         "depCityAbroad": null,
+         "depCityCode": "CJU",
+         "depCityName": "济州岛",
+         "depDateTime": "2026-12-03 19:15:00",
+         "depStationCode": "CJU",
+         "depStationName": "济州国际机场",
+         "depStationShortName": "济州",
+         "depTerm": "",
+         "depWeekAbbrName": "周四",
+         "duration": "165",
+         "marketingTransportName": "春秋",
+         "marketingTransportNo": "9C7206",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "380",
+       "transferDuration": "140"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F4TcwTa",
+     "tags": null,
+     "ticketPrice": "786.00",
+     "totalDuration": "380"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "CJU",
+         "arrCityName": "济州岛",
+         "arrDateTime": "2026-12-03 15:00:00",
+         "arrStationCode": "CJU",
+         "arrStationName": "济州国际机场",
+         "arrStationShortName": "济州",
+         "arrTerm": "",
+         "arrWeekAbbrName": "周四",
+         "depCityAbroad": null,
+         "depCityCode": "SEL",
+         "depCityName": "首尔",
+         "depDateTime": "2026-12-03 13:45:00",
+         "depStationCode": "GMP",
+         "depStationName": "金浦国际机场",
+         "depStationShortName": "金浦",
+         "depTerm": "D",
+         "depWeekAbbrName": "周四",
+         "duration": "75",
+         "marketingTransportName": "泰瑞航空",
+         "marketingTransportNo": "TW715",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        },
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "BJS",
+         "arrCityName": "北京",
+         "arrDateTime": "2026-12-03 21:00:00",
+         "arrStationCode": "PKX",
+         "arrStationName": "大兴国际机场",
+         "arrStationShortName": "大兴",
+         "arrTerm": "",
+         "arrWeekAbbrName": "周四",
+         "depCityAbroad": null,
+         "depCityCode": "CJU",
+         "depCityName": "济州岛",
+         "depDateTime": "2026-12-03 19:15:00",
+         "depStationCode": "CJU",
+         "depStationName": "济州国际机场",
+         "depStationShortName": "济州",
+         "depTerm": "",
+         "depWeekAbbrName": "周四",
+         "duration": "165",
+         "marketingTransportName": "春秋",
+         "marketingTransportNo": "9C7206",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "495",
+       "transferDuration": "255"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2jiSRE",
+     "tags": null,
+     "ticketPrice": "786.00",
+     "totalDuration": "495"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": true,
+         "arrCityCode": "CJU",
+         "arrCityName": "济州岛",
+         "arrDateTime": "2026-12-03 20:20:00",
+         "arrStationCode": "CJU",
+         "arrStationName": "济州国际机场",
+         "arrStationShortName": "济州",
+         "arrTerm": "",
+         "arrWeekAbbrName": "周四",
+         "depCityAbroad": null,
+         "depCityCode": "SEL",
+         "depCityName": "首尔",
+         "depDateTime": "2026-12-03 19:05:00",
+         "depStationCode": "GMP",
+         "depStationName": "金浦国际机场",
+         "depStationShortName": "金浦",
+         "depTerm": "D",
+         "depWeekAbbrName": "周四",
+         "duration": "75",
+         "marketingTransportName": "泰瑞航空",
+         "marketingTransportNo": "TW729",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        },
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "BJS",
+         "arrCityName": "北京",
+         "arrDateTime": "2026-12-04 21:00:00",
+         "arrStationCode": "PKX",
+         "arrStationName": "大兴国际机场",
+         "arrStationShortName": "大兴",
+         "arrTerm": "",
+         "arrWeekAbbrName": "周五",
+         "depCityAbroad": null,
+         "depCityCode": "CJU",
+         "depCityName": "济州岛",
+         "depDateTime": "2026-12-04 19:15:00",
+         "depStationCode": "CJU",
+         "depStationName": "济州国际机场",
+         "depStationShortName": "济州",
+         "depTerm": "",
+         "depWeekAbbrName": "周五",
+         "duration": "165",
+         "marketingTransportName": "春秋",
+         "marketingTransportNo": "9C7206",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "1615",
+       "transferDuration": "1375"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F43whlp",
+     "tags": null,
+     "ticketPrice": "786.00",
+     "totalDuration": "1615"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "BJS",
+         "arrCityName": "北京",
+         "arrDateTime": "2026-12-03 09:45:00",
+         "arrStationCode": "PEK",
+         "arrStationName": "首都国际机场",
+         "arrStationShortName": "首都",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周四",
+         "depCityAbroad": null,
+         "depCityCode": "SEL",
+         "depCityName": "首尔",
+         "depDateTime": "2026-12-03 08:35:00",
+         "depStationCode": "GMP",
+         "depStationName": "金浦国际机场",
+         "depStationShortName": "金浦",
+         "depTerm": "I",
+         "depWeekAbbrName": "周四",
+         "duration": "130",
+         "marketingTransportName": "韩亚航空",
+         "marketingTransportNo": "OZ3355",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "130",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1UKy2B",
+     "tags": null,
+     "ticketPrice": "946.00",
+     "totalDuration": "130"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "BJS",
+         "arrCityName": "北京",
+         "arrDateTime": "2026-12-03 09:45:00",
+         "arrStationCode": "PEK",
+         "arrStationName": "首都国际机场",
+         "arrStationShortName": "首都",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周四",
+         "depCityAbroad": null,
+         "depCityCode": "SEL",
+         "depCityName": "首尔",
+         "depDateTime": "2026-12-03 08:20:00",
+         "depStationCode": "ICN",
+         "depStationName": "仁川国际机场",
+         "depStationShortName": "仁川",
+         "depTerm": "T2",
+         "depWeekAbbrName": "周四",
+         "duration": "145",
+         "marketingTransportName": "韩亚航空",
+         "marketingTransportNo": "OZ331",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "145",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F4Tbgk9",
+     "tags": null,
+     "ticketPrice": "961.00",
+     "totalDuration": "145"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "BJS",
+         "arrCityName": "北京",
+         "arrDateTime": "2026-12-03 16:25:00",
+         "arrStationCode": "PEK",
+         "arrStationName": "首都国际机场",
+         "arrStationShortName": "首都",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周四",
+         "depCityAbroad": null,
+         "depCityCode": "SEL",
+         "depCityName": "首尔",
+         "depDateTime": "2026-12-03 15:00:00",
+         "depStationCode": "ICN",
+         "depStationName": "仁川国际机场",
+         "depStationShortName": "仁川",
+         "depTerm": "T2",
+         "depWeekAbbrName": "周四",
+         "duration": "145",
+         "marketingTransportName": "韩亚航空",
+         "marketingTransportNo": "OZ335",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "145",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0bKP2A",
+     "tags": null,
+     "ticketPrice": "961.00",
+     "totalDuration": "145"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "BJS",
+         "arrCityName": "北京",
+         "arrDateTime": "2026-12-03 14:10:00",
+         "arrStationCode": "PEK",
+         "arrStationName": "首都国际机场",
+         "arrStationShortName": "首都",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周四",
+         "depCityAbroad": null,
+         "depCityCode": "SEL",
+         "depCityName": "首尔",
+         "depDateTime": "2026-12-03 12:50:00",
+         "depStationCode": "ICN",
+         "depStationName": "仁川国际机场",
+         "depStationShortName": "仁川",
+         "depTerm": "T2",
+         "depWeekAbbrName": "周四",
+         "duration": "140",
+         "marketingTransportName": "韩亚航空",
+         "marketingTransportNo": "OZ333",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "140",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3fJG8b",
+     "tags": null,
+     "ticketPrice": "963.00",
+     "totalDuration": "140"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "BJS",
+         "arrCityName": "北京",
+         "arrDateTime": "2026-12-03 14:40:00",
+         "arrStationCode": "PKX",
+         "arrStationName": "大兴国际机场",
+         "arrStationShortName": "大兴",
+         "arrTerm": "",
+         "arrWeekAbbrName": "周四",
+         "depCityAbroad": null,
+         "depCityCode": "SEL",
+         "depCityName": "首尔",
+         "depDateTime": "2026-12-03 13:30:00",
+         "depStationCode": "GMP",
+         "depStationName": "金浦国际机场",
+         "depStationShortName": "金浦",
+         "depTerm": "I",
+         "depWeekAbbrName": "周四",
+         "duration": "130",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ318",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "130",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3elffW",
+     "tags": null,
+     "ticketPrice": "960.00",
+     "totalDuration": "130"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "BJS",
+         "arrCityName": "北京",
+         "arrDateTime": "2026-12-03 10:40:00",
+         "arrStationCode": "PKX",
+         "arrStationName": "大兴国际机场",
+         "arrStationShortName": "大兴",
+         "arrTerm": "",
+         "arrWeekAbbrName": "周四",
+         "depCityAbroad": null,
+         "depCityCode": "SEL",
+         "depCityName": "首尔",
+         "depDateTime": "2026-12-03 09:25:00",
+         "depStationCode": "ICN",
+         "depStationName": "仁川国际机场",
+         "depStationShortName": "仁川",
+         "depTerm": "T1",
+         "depWeekAbbrName": "周四",
+         "duration": "135",
+         "marketingTransportName": "南航",
+         "marketingTransportNo": "CZ316",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "135",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F10ISfT",
+     "tags": null,
+     "ticketPrice": "960.00",
+     "totalDuration": "135"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "BJS",
+         "arrCityName": "北京",
+         "arrDateTime": "2026-12-03 10:25:00",
+         "arrStationCode": "PEK",
+         "arrStationName": "首都国际机场",
+         "arrStationShortName": "首都",
+         "arrTerm": "T2",
+         "arrWeekAbbrName": "周四",
+         "depCityAbroad": null,
+         "depCityCode": "SEL",
+         "depCityName": "首尔",
+         "depDateTime": "2026-12-03 09:05:00",
+         "depStationCode": "GMP",
+         "depStationName": "金浦国际机场",
+         "depStationShortName": "金浦",
+         "depTerm": "I",
+         "depWeekAbbrName": "周四",
+         "duration": "140",
+         "marketingTransportName": "大韩航空",
+         "marketingTransportNo": "KE2051",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "经济舱",
+         "stopInfos": null,
+         "transportType": "飞机"
+        }
+       ],
+       "totalDuration": "140",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3RheVP",
+     "tags": null,
+     "ticketPrice": "968.00",
+     "totalDuration": "140"
+    }
+   ]
+  },
+  "message": "success",
+  "status": 0,
+  "systemMessage": "*当前为体验模式，部分搜索结果可能受限，请前往 [飞猪AI开放平台](https://flyai.open.fliggy.com/) 获取正式API Key解锁完整服务。*"
+ }
+}

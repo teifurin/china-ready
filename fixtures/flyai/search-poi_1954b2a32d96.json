@@ -1,0 +1,47 @@
+{
+ "fetchedAt": "2026-10-20T08:55:12.727Z",
+ "command": "search-poi",
+ "args": {
+  "city-name": "杭州",
+  "category": "市集"
+ },
+ "response": {
+  "data": {
+   "itemList": [
+    {
+     "address": "浙江省杭州市下城区武林街道龙游路43号附近",
+     "category": "市集",
+     "description": "武林夜市是吃货的天堂，它以售卖各种小吃而闻名，街头巷尾随处可见各类小吃摊，人们手里拿的口中吃的都是各种各样的美食。武林夜市这短短300米，已经成了杭州“夜经济”的一块金字招牌。",
+     "freePoiStatus": "UNKNOWN",
+     "id": "154514886",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2H6L3k",
+     "latitude": "30.261664",
+     "listRank": null,
+     "longitude": "120.159572",
+     "mainPic": "https://img.alicdn.com/imgextra/i4/O1CN01O5EAQ61s5W6F9zB5B_!!0-travel.jpg",
+     "name": "武林夜市",
+     "poiLevel": null,
+     "ticketInfo": null
+    },
+    {
+     "address": "浙江省杭州市上城区湖滨街道仁和路(龙翔桥地铁站D口步行490米)",
+     "category": "市集",
+     "description": "吴山夜市是杭州最老、最热闹的一条夜市。这里贩卖的东西五花八门、色彩斑斓，瓶瓶罐罐、小镜子、小配饰、各种小玩意儿，还有到物美价廉的T恤。这里年轻人居多，有些拥挤，晚上可以过来逛逛，淘点东西。",
+     "freePoiStatus": "UNKNOWN",
+     "id": "2131",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1DEFZT",
+     "latitude": "30.252874",
+     "listRank": null,
+     "longitude": "120.168345",
+     "mainPic": "http://img.alicdn.com/imgextra/i3/613639/TB2qNYFcVXXXXaaXXXXXXXXXXXX_!!613639-0-travel.jpg",
+     "name": "吴山夜市",
+     "poiLevel": null,
+     "ticketInfo": null
+    }
+   ]
+  },
+  "message": "success",
+  "status": 0,
+  "systemMessage": "*当前为体验模式，部分搜索结果可能受限，请前往 [飞猪AI开放平台](https://flyai.open.fliggy.com/) 获取正式API Key解锁完整服务。*"
+ }
+}

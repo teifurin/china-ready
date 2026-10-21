@@ -1,0 +1,524 @@
+{
+ "fetchedAt": "2026-10-20T08:55:18.586Z",
+ "command": "search-train",
+ "args": {
+  "origin": "北京",
+  "destination": "西安",
+  "dep-date": "2026-12-06",
+  "dep-hour-start": 8,
+  "dep-hour-end": 12
+ },
+ "response": {
+  "data": {
+   "itemList": [
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "610100",
+         "arrCityName": "西安",
+         "arrDateTime": "2026-12-06 14:05:00",
+         "arrStationCode": "EAY",
+         "arrStationName": "西安北站",
+         "arrStationShortName": "西安北",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "110100",
+         "depCityName": "北京",
+         "depDateTime": "2026-12-06 09:55:00",
+         "depStationCode": "BXP",
+         "depStationName": "北京西站",
+         "depStationShortName": "北京西",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "250",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G365",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        }
+       ],
+       "totalDuration": "250",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0mUzU8",
+     "price": "5xx",
+     "totalDuration": "250"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "610100",
+         "arrCityName": "西安",
+         "arrDateTime": "2026-12-06 16:54:00",
+         "arrStationCode": "EAY",
+         "arrStationName": "西安北站",
+         "arrStationShortName": "西安北",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "110100",
+         "depCityName": "北京",
+         "depDateTime": "2026-12-06 11:41:00",
+         "depStationCode": "BXP",
+         "depStationName": "北京西站",
+         "depStationShortName": "北京西",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "313",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G671",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        }
+       ],
+       "totalDuration": "313",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0Yc9ev",
+     "price": "5xx",
+     "totalDuration": "313"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "610100",
+         "arrCityName": "西安",
+         "arrDateTime": "2026-12-06 12:31:00",
+         "arrStationCode": "EAY",
+         "arrStationName": "西安北站",
+         "arrStationShortName": "西安北",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "110100",
+         "depCityName": "北京",
+         "depDateTime": "2026-12-06 08:10:00",
+         "depStationCode": "BXP",
+         "depStationName": "北京西站",
+         "depStationShortName": "北京西",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "261",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G357",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        }
+       ],
+       "totalDuration": "261",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0hBhEP",
+     "price": "5xx",
+     "totalDuration": "261"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "610100",
+         "arrCityName": "西安",
+         "arrDateTime": "2026-12-06 15:32:00",
+         "arrStationCode": "EAY",
+         "arrStationName": "西安北站",
+         "arrStationShortName": "西安北",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "110100",
+         "depCityName": "北京",
+         "depDateTime": "2026-12-06 09:40:00",
+         "depStationCode": "BXP",
+         "depStationName": "北京西站",
+         "depStationShortName": "北京西",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "352",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G1591",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        }
+       ],
+       "totalDuration": "352",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3p28la",
+     "price": "4xx",
+     "totalDuration": "352"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "130100",
+         "arrCityName": "石家庄",
+         "arrDateTime": "2026-12-06 12:56:00",
+         "arrStationCode": "SJP",
+         "arrStationName": "石家庄站",
+         "arrStationShortName": "石家庄",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "110100",
+         "depCityName": "北京",
+         "depDateTime": "2026-12-06 11:55:00",
+         "depStationCode": "BXP",
+         "depStationName": "北京西站",
+         "depStationShortName": "北京西",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "61",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G373",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        },
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "610100",
+         "arrCityName": "西安",
+         "arrDateTime": "2026-12-06 16:54:00",
+         "arrStationCode": "EAY",
+         "arrStationName": "西安北站",
+         "arrStationShortName": "西安北",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "130100",
+         "depCityName": "石家庄",
+         "depDateTime": "2026-12-06 13:15:00",
+         "depStationCode": "SJP",
+         "depStationName": "石家庄站",
+         "depStationShortName": "石家庄",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "219",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G671",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        }
+       ],
+       "totalDuration": "299",
+       "transferDuration": "19"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F4XclV9",
+     "price": "5xx",
+     "totalDuration": "299"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "130100",
+         "arrCityName": "石家庄",
+         "arrDateTime": "2026-12-06 10:38:00",
+         "arrStationCode": "SJP",
+         "arrStationName": "石家庄站",
+         "arrStationShortName": "石家庄",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "110100",
+         "depCityName": "北京",
+         "depDateTime": "2026-12-06 09:20:00",
+         "depStationCode": "BXP",
+         "depStationName": "北京西站",
+         "depStationShortName": "北京西",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "78",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G689",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        },
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "610100",
+         "arrCityName": "西安",
+         "arrDateTime": "2026-12-06 14:05:00",
+         "arrStationCode": "EAY",
+         "arrStationName": "西安北站",
+         "arrStationShortName": "西安北",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "130100",
+         "depCityName": "石家庄",
+         "depDateTime": "2026-12-06 10:58:00",
+         "depStationCode": "SJP",
+         "depStationName": "石家庄站",
+         "depStationShortName": "石家庄",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "187",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G365",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        }
+       ],
+       "totalDuration": "285",
+       "transferDuration": "20"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3dbLKn",
+     "price": "5xx",
+     "totalDuration": "285"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "中转",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "410100",
+         "arrCityName": "郑州",
+         "arrDateTime": "2026-12-06 14:15:00",
+         "arrStationCode": "ZAF",
+         "arrStationName": "郑州东站",
+         "arrStationShortName": "郑州东",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "110100",
+         "depCityName": "北京",
+         "depDateTime": "2026-12-06 11:55:00",
+         "depStationCode": "BXP",
+         "depStationName": "北京西站",
+         "depStationShortName": "北京西",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "140",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G373",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        },
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "610100",
+         "arrCityName": "西安",
+         "arrDateTime": "2026-12-06 16:39:00",
+         "arrStationCode": "EAY",
+         "arrStationName": "西安北站",
+         "arrStationShortName": "西安北",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "410100",
+         "depCityName": "郑州",
+         "depDateTime": "2026-12-06 14:34:00",
+         "depStationCode": "ZAF",
+         "depStationName": "郑州东站",
+         "depStationShortName": "郑州东",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "125",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G2389",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        }
+       ],
+       "totalDuration": "284",
+       "transferDuration": "19"
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1mBYO3",
+     "price": "5xx",
+     "totalDuration": "284"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "610100",
+         "arrCityName": "西安",
+         "arrDateTime": "2026-12-06 15:07:00",
+         "arrStationCode": "EAY",
+         "arrStationName": "西安北站",
+         "arrStationShortName": "西安北",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "110100",
+         "depCityName": "北京",
+         "depDateTime": "2026-12-06 09:10:00",
+         "depStationCode": "BXP",
+         "depStationName": "北京西站",
+         "depStationShortName": "北京西",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "357",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G969",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        }
+       ],
+       "totalDuration": "357",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F24cw35",
+     "price": "5xx",
+     "totalDuration": "357"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "610100",
+         "arrCityName": "西安",
+         "arrDateTime": "2026-12-06 14:20:00",
+         "arrStationCode": "XAY",
+         "arrStationName": "西安站",
+         "arrStationShortName": "西安",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "110100",
+         "depCityName": "北京",
+         "depDateTime": "2026-12-06 08:26:00",
+         "depStationCode": "BXP",
+         "depStationName": "北京西站",
+         "depStationShortName": "北京西",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "354",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G655",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        }
+       ],
+       "totalDuration": "354",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0iZ3Qb",
+     "price": "4xx",
+     "totalDuration": "354"
+    },
+    {
+     "journeys": [
+      {
+       "journeyType": "直达",
+       "segments": [
+        {
+         "arrCityAbroad": false,
+         "arrCityCode": "610100",
+         "arrCityName": "西安",
+         "arrDateTime": "2026-12-06 15:18:00",
+         "arrStationCode": "EAY",
+         "arrStationName": "西安北站",
+         "arrStationShortName": "西安北",
+         "arrTerm": null,
+         "arrWeekAbbrName": "周日",
+         "depCityAbroad": null,
+         "depCityCode": "110100",
+         "depCityName": "北京",
+         "depDateTime": "2026-12-06 09:29:00",
+         "depStationCode": "FTP",
+         "depStationName": "北京丰台站",
+         "depStationShortName": "北京丰台",
+         "depTerm": null,
+         "depWeekAbbrName": "周日",
+         "duration": "349",
+         "marketingTransportName": "高铁",
+         "marketingTransportNo": "G1307",
+         "miles": null,
+         "quantity": null,
+         "seatClassName": "二等座",
+         "stopInfos": null,
+         "transportType": "火车"
+        }
+       ],
+       "totalDuration": "349",
+       "transferDuration": ""
+      }
+     ],
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0Xd2DO",
+     "price": "5xx",
+     "totalDuration": "349"
+    }
+   ]
+  },
+  "message": "success",
+  "status": 0,
+  "systemMessage": "*当前为体验模式，部分搜索结果可能受限，请前往 [飞猪AI开放平台](https://flyai.open.fliggy.com/) 获取正式API Key解锁完整服务。*"
+ }
+}

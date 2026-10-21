@@ -1,0 +1,47 @@
+{
+ "fetchedAt": "2026-10-20T08:55:23.764Z",
+ "command": "search-poi",
+ "args": {
+  "city-name": "上海",
+  "category": "市集"
+ },
+ "response": {
+  "data": {
+   "itemList": [
+    {
+     "address": "上海市闵行区梅陇立交桥与沪闵路交叉口西南100米",
+     "category": "市集",
+     "description": "夜市主打台湾美食，非常不错，也属于锦江乐园老牌夜市了，开了很多年，吃货不可错过的品尝美食的好地方。",
+     "freePoiStatus": "FREE",
+     "id": "32322459",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0rsZTL",
+     "latitude": "31.140048",
+     "listRank": null,
+     "longitude": "121.410418",
+     "mainPic": "https://img.alicdn.com/tfscom/TB1dy12fRHH8KJjy0FbSuwqlpXa",
+     "name": "锦江士林夜市(东北门)",
+     "poiLevel": null,
+     "ticketInfo": null
+    },
+    {
+     "address": "上海市青浦区华新镇",
+     "category": "市集",
+     "description": "",
+     "freePoiStatus": "UNKNOWN",
+     "id": "146912597",
+     "jumpUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F4RJ4Sh",
+     "latitude": "31.200742",
+     "listRank": null,
+     "longitude": "121.231719",
+     "mainPic": "https://img.alicdn.com/imgextra/i1/6000000004028/O1CN01V27tA21fcrvO1g0Nq_!!6000000004028-0-fliggyimage.jpg",
+     "name": "通北路",
+     "poiLevel": null,
+     "ticketInfo": null
+    }
+   ]
+  },
+  "message": "success",
+  "status": 0,
+  "systemMessage": "*当前为体验模式，部分搜索结果可能受限，请前往 [飞猪AI开放平台](https://flyai.open.fliggy.com/) 获取正式API Key解锁完整服务。*"
+ }
+}

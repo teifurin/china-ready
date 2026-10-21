@@ -1,0 +1,9 @@
+Sample photos for the photo feature of China Ready (入境中国随身通).
+
+Taken by the project author (team Furin) in mainland China, June 2025, and published with this project by the photographer:
+  exhibit.jpg, exhibit-label.jpg   a museum exhibit and its label
+  shop-menu.jpg                    a restaurant's menu board at its entrance
+  dish-a.jpg, dish-b.jpg           two dishes served at a restaurant
+
+Each file was rotated upright, resized to 1600 px on the long side (thumbnails: 360 px)
+and saved without any metadata (no EXIF, no camera model, no date, no location).
