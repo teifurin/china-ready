@@ -26,8 +26,8 @@ const I = {
     pick: '写真を選ぶ／撮る', pickHint: '3枚まで', translate: '調べる',
     tipsNote: '一般情報です。政策は変わるため、必ず出典の公式ページで確認してください。', source: '出典', checked: '確認日', general: '一般的な注意', official: '公式情報',
     mockBanner: 'デモ（モック）モード：DASHSCOPE_API_KEY 未設定のため、文章はテンプレート、写真の解説は無効です。旅行データは飛猪の実データです。',
-    cardsTitle: 'スタッフに見せるカード', returnFromFirst: '帰りの便は次の都市から出発します：', assume: '推定', kmHotel: 'ホテルから約{n}km',
-    errGeneric: '旅程を作れませんでした。しばらくしてからもう一度お試しください。', errTimeout: '飛猪の検索がタイムアウトしました。もう一度お試しください。', errFlyai: '一部の飛猪検索が失敗しました',
+    cardsTitle: 'スタッフに見せるカード', returnUnavailable: 'この都市からの帰国便が見つかりません。別の都市への接続も未確認です。経路または日程を変更してください：', returnFromFirst: '帰りの便は次の都市から出発します：', assume: '推定', kmHotel: 'ホテルから約{n}km',
+    errGeneric: '旅程を作れませんでした。しばらくしてからもう一度お試しください。', errTimeout: '飛猪の検索がタイムアウトしました。もう一度お試しください。', errFlyai: '一部の飛猪検索が失敗しました', errTooManyCities: '都市の数が日数より多いため、旅程を作れません。日数を増やすか、都市を減らしてください。',
     saveImg: '画像を保存',
     tokenBanner: 'Token Plan のキーはアプリから使えません。従量課金の DASHSCOPE_API_KEY（sk- で始まり、sk-sp- ではないもの）を設定してください。',
     pausedNote: '飛猪から利用制限（{r}）が返ったため、{t}まで実データの検索を止めています。下の結果には保存済みのデータが含まれることがあります（取得時刻はページ下部の検索記録を参照）。',
@@ -65,8 +65,8 @@ const I = {
     pick: 'Choose / take photos', pickHint: 'Up to 3', translate: 'Explain',
     tipsNote: 'General information only. Policies change — always confirm on the official source pages.', source: 'Source', checked: 'checked', general: 'General reminder', official: 'Official info',
     mockBanner: 'Demo (mock) mode: no DASHSCOPE_API_KEY, so narrative uses templates and photo lookup is disabled. Travel data is real Fliggy data.',
-    cardsTitle: 'Show-to-staff cards', returnFromFirst: 'Return flight departs from:', assume: 'assumed', kmHotel: '~{n} km from hotel',
-    errGeneric: 'Could not build the itinerary. Please try again.', errTimeout: 'The Fliggy search timed out. Please try again.', errFlyai: 'Some Fliggy searches failed',
+    cardsTitle: 'Show-to-staff cards', returnUnavailable: 'No return flight found from this city, and no connection to another departure city is verified. Adjust your route or dates:', returnFromFirst: 'Return flight departs from:', assume: 'assumed', kmHotel: '~{n} km from hotel',
+    errGeneric: 'Could not build the itinerary. Please try again.', errTimeout: 'The Fliggy search timed out. Please try again.', errFlyai: 'Some Fliggy searches failed', errTooManyCities: 'There are more cities than days. Add days or choose fewer cities.',
     saveImg: 'Save image',
     tokenBanner: 'A Token Plan key cannot be used by this app. Set a pay-as-you-go DASHSCOPE_API_KEY (starts with sk-, not sk-sp-).',
     pausedNote: 'Fliggy returned a usage limit ({r}), so live search is paused until {t}. Results below may include saved data (fetch times are in the query log at the bottom).',
@@ -105,8 +105,8 @@ const I = {
     pick: '사진 선택/촬영', pickHint: '최대 3장', translate: '알아보기',
     tipsNote: '일반 정보입니다. 정책은 바뀔 수 있으니 반드시 출처 공식 페이지를 확인하세요.', source: '출처', checked: '확인일', general: '일반 안내', official: '공식 정보',
     mockBanner: '데모(목) 모드: DASHSCOPE_API_KEY가 없어 문구는 템플릿, 사진 해설은 비활성. 여행 데이터는 Fliggy 실데이터입니다.',
-    cardsTitle: '직원에게 보여 주기 카드', returnFromFirst: '귀국편 출발 도시:', assume: '추정', kmHotel: '호텔에서 약 {n}km',
-    errGeneric: '일정을 만들지 못했습니다. 잠시 후 다시 시도해 주세요.', errTimeout: 'Fliggy 검색 시간이 초과되었습니다. 다시 시도해 주세요.', errFlyai: '일부 Fliggy 검색이 실패했습니다',
+    cardsTitle: '직원에게 보여 주기 카드', returnUnavailable: '이 도시 출발 귀국편이 없고 다른 출발 도시까지의 연결편도 확인되지 않았습니다. 경로나 날짜를 변경하세요:', returnFromFirst: '귀국편 출발 도시:', assume: '추정', kmHotel: '호텔에서 약 {n}km',
+    errGeneric: '일정을 만들지 못했습니다. 잠시 후 다시 시도해 주세요.', errTimeout: 'Fliggy 검색 시간이 초과되었습니다. 다시 시도해 주세요.', errFlyai: '일부 Fliggy 검색이 실패했습니다', errTooManyCities: '도시 수가 일수보다 많아 일정을 만들 수 없습니다. 일수를 늘리거나 도시를 줄여 주세요.',
     saveImg: '이미지 저장',
     tokenBanner: 'Token Plan 키는 이 앱에서 쓸 수 없습니다. 종량제 DASHSCOPE_API_KEY(sk- 로 시작하고 sk-sp- 가 아닌 키)를 설정하세요.',
     pausedNote: 'Fliggy가 이용 제한({r})을 반환해 {t}까지 실시간 검색을 멈췄습니다. 아래 결과에는 저장된 데이터가 포함될 수 있습니다(조회 시각은 맨 아래 검색 기록 참고).',
@@ -144,8 +144,8 @@ const I = {
     pick: '选择/拍摄照片', pickHint: '最多 3 张', translate: '识别',
     tipsNote: '以下为一般信息，政策可能变化，请以出处官方页面为准。', source: '出处', checked: '核对日期', general: '一般提醒', official: '官方信息',
     mockBanner: '演示（Mock）模式：未配置 DASHSCOPE_API_KEY，文案用模板、拍照识别不可用；旅行数据为飞猪真实数据。',
-    cardsTitle: '给工作人员看的卡片', returnFromFirst: '返程航班出发城市：', assume: '推测', kmHotel: '距酒店约{n}公里',
-    errGeneric: '没能生成行程，请稍后再试。', errTimeout: '飞猪查询超时，请再试一次。', errFlyai: '部分飞猪查询失败',
+    cardsTitle: '给工作人员看的卡片', returnUnavailable: '未找到从此城市出发的返程航班，也未确认前往其他出发城市的接驳。请调整路线或日期：', returnFromFirst: '返程航班出发城市：', assume: '推测', kmHotel: '距酒店约{n}公里',
+    errGeneric: '没能生成行程，请稍后再试。', errTimeout: '飞猪查询超时，请再试一次。', errFlyai: '部分飞猪查询失败', errTooManyCities: '城市数比天数多，无法生成行程。请增加天数或减少城市。',
     saveImg: '保存图片',
     tokenBanner: '不能在应用里使用 Token Plan Key。请配置按量付费的 DASHSCOPE_API_KEY（sk- 开头，不能是 sk-sp-）。',
     pausedNote: '飞猪返回了限流（{r}），{t} 前暂停实时查询。下面的结果可能包含之前保存的数据（获取时间见页面底部的查询记录）。',
@@ -341,7 +341,7 @@ async function run() {
     const ctype = r.headers.get('content-type') || '';
     if (!ctype.includes('text/event-stream')) {
       const j = await r.json();
-      if (!r.ok) throw new Error(j.error || r.status);
+      if (!r.ok) throw new Error(j.code === 'TOO_MANY_CITIES' ? t('errTooManyCities') : j.error || r.status);
       plan = j;
     } else {
       const reader = r.body.getReader();
@@ -354,7 +354,7 @@ async function run() {
         buf = readSse(buf, (event, payload) => {
           if (event === 'progress') { steps.set(payload.step, payload.state || 'start'); paintSteps(steps); }
           else if (event === 'result') result = payload;
-          else if (event === 'error') err = payload.error || t('errGeneric');
+          else if (event === 'error') err = payload.code === 'TOO_MANY_CITIES' ? t('errTooManyCities') : payload.error || t('errGeneric');
         });
       }
       if (err) throw new Error(err);
@@ -432,7 +432,7 @@ function poiHtml(s) {
 }
 function stopHtml(s, nums) {
   const o = s.option;
-  if (s.type === 'note') return `<li class="stop note-stop"><span class="rail">${icon('alert')}</span><div class="item">${esc(t('returnFromFirst'))} ${zh(s.city)}</div></li>`;
+  if (s.type === 'note') return `<li class="stop note-stop"><span class="rail">${icon('alert')}</span><div class="item">${esc(t(s.noteKey || 'returnFromFirst'))} ${zh(s.city)}</div></li>`;
   if (!o) return `<li class="stop"><span class="rail">${icon(TYPE_ICON[s.type])}</span><div class="item empty">${esc(t('noResult'))}</div></li>`;
   const body = s.type === 'flight' || s.type === 'train' ? passHtml(s) : s.type === 'hotel' ? hotelHtml(s) : poiHtml(s);
   const rail = s.type === 'poi' ? `<span class="rail num">${nums.get(s.id)}</span>` : `<span class="rail">${icon(TYPE_ICON[s.type])}</span>`;
@@ -620,6 +620,7 @@ function sourcesHtml() {
 }
 
 function renderPlan() {
+  invalidatePhoto();
   $('#trip').innerHTML = tripHtml();
   $('#tabs').innerHTML = t('tabs').map((x, i) => `<button type="button" role="tab" data-tab="${i}" class="${i === currentTab ? 'on' : ''}" aria-selected="${i === currentTab}">${icon(TAB_ICON[i])}<span>${esc(x)}</span></button>`).join('');
   $('#tab-plan').innerHTML = plan.days.map(dayHtml).join('');
@@ -714,6 +715,13 @@ function saveCardPng() {
 // whose full images are fetched only when it is sent to the model.
 let photoSel = { sample: null, photos: [] };
 let photoSamples = null;
+let photoGeneration = 0;
+function invalidatePhoto() {
+  photoGeneration += 1;
+  const button = $('#phgo');
+  if (button) button.disabled = false;
+  return photoGeneration;
+}
 const KIND_ICON = { menu: 'utensils', shopfront: 'utensils', sign: 'signpost', notice: 'info', exhibit: 'museum', dish: 'utensils', other: 'camera' };
 const stateHtml = (ic, title, msg) => `<div class="state">${icon(ic)}<div>${title ? `<b>${esc(title)}</b>` : ''}<p>${esc(msg)}</p></div></div>`;
 const thumbOf = (f) => 'photos/' + f.replace(/\.jpg$/, '-thumb.jpg');
@@ -734,6 +742,7 @@ function paintSelection() {
 }
 function pickSample(id) {
   const x = (photoSamples || []).find((p) => p.id === id); if (!x) return;
+  invalidatePhoto();
   photoSel = { sample: id, photos: x.files.map((f) => ({ thumb: thumbOf(f), src: 'photos/' + f, data: null })) };
   paintSelection();
   // a recorded answer in the reader's language, else in any language it was recorded in (and the page says which)
@@ -758,13 +767,15 @@ function resized(file) {
 async function onPhoto(e) {
   const files = [...e.target.files]; e.target.value = '';
   if (!files.length) return;
+  const generation = invalidatePhoto();
   try {
     const datas = await Promise.all(files.slice(0, 3).map(resized));
+    if (generation !== photoGeneration) return;
     photoSel = { sample: null, photos: datas.map((d) => ({ thumb: d, data: d })) };
     paintSelection();
     $('#phout').innerHTML = files.length > 3 ? `<p class="small muted">${esc(t('tooMany'))}</p>` : '';
     $('#phempty').hidden = files.length > 3;
-  } catch (err) { $('#phempty').hidden = true; $('#phout').innerHTML = stateHtml('alert', '', err.message || t('errGeneric')); }
+  } catch (err) { if (generation !== photoGeneration) return; $('#phempty').hidden = true; $('#phout').innerHTML = stateHtml('alert', '', err.message || t('errGeneric')); }
 }
 async function asDataUrl(src) {
   const blob = await (await fetch(src)).blob();
@@ -777,19 +788,26 @@ async function explainPhoto() {
     else { $('#phempty').hidden = true; $('#phout').innerHTML = stateHtml('info', t('unavailable'), t('staticPhoto')); }
     return;
   }
+  const generation = ++photoGeneration;
+  const photos = photoSel.photos.map((p) => ({ ...p }));
+  const requestLang = lang;
+  const current = () => generation === photoGeneration;
   $('#phempty').hidden = true;
   $('#phout').innerHTML = '<div class="ph-empty"><span class="spinner"></span></div>';
   $('#phgo').disabled = true;
   try {
-    for (const p of photoSel.photos) if (!p.data) p.data = await asDataUrl(p.src);
-    const r = await fetch('api/photo', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ images: photoSel.photos.map((p) => p.data), lang }) });
+    for (const p of photos) if (!p.data) p.data = await asDataUrl(p.src);
+    if (!current()) return;
+    const r = await fetch('api/photo', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ images: photos.map((p) => p.data), lang: requestLang }) });
     const j = await r.json();
+    if (!current()) return;
     if (!r.ok) { $('#phout').innerHTML = stateHtml('alert', '', j.error || t('errGeneric')); return; }
     if (!j.available) { $('#phout').innerHTML = stateHtml('info', t('unavailable'), j.message); return; }
     showPhotoResult(j, null);
-  } catch (e) { $('#phout').innerHTML = stateHtml('alert', '', e.message || t('errGeneric')); }
-  finally { $('#phgo').disabled = false; }
+  } catch (e) { if (current()) $('#phout').innerHTML = stateHtml('alert', '', e.message || t('errGeneric')); }
+  finally { if (current()) $('#phgo').disabled = false; }
 }
+
 function showPhotoResult(j, rec) {
   $('#phempty').hidden = true;
   $('#phout').innerHTML = photoResultHtml(j, rec);

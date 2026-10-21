@@ -57,7 +57,9 @@ function save(ex, plan) {
   fs.writeFileSync(path.join(OUT, 'data', `plan-${ex.lang}.json`), json);
 }
 
-// a plan saved from a real run of the app, embedded as is; only the runtime pause state is dropped
+// a plan saved from a real run of the app, embedded as is. Only the runtime pause state is dropped, and the entry
+// notes are taken from the current src/tips.js: they are curated text, not run output, so a corrected note never
+// means editing a recording by hand.
 function embed(ex, file, ruleBased) {
   const plan = JSON.parse(fs.readFileSync(path.resolve(file), 'utf8'));
   const rb = ruleBased(ex.text, ex.lang);
@@ -69,6 +71,7 @@ function embed(ex, file, ruleBased) {
   const by = {};
   for (const s of plan.data.sources) by[s.source] = (by[s.source] || 0) + 1;
   plan.data.paused = null;
+  plan.tips = require('../src/tips').tipsFor(ex.lang);
   plan.static = { recordedAt: firstFetch(plan), from: 'run', ranAt: plan.createdAt, text: ex.text };
   save(ex, plan);
   console.log(`  ${ex.lang}: embedded run of ${plan.createdAt}: ${plan.days.length} days, known ¥${plan.totals.knownSum}, ${plan.data.errors.length} flyai errors, queries ${JSON.stringify(by)}, narrative ${plan.narrative.source}, intent ${plan.intent.extractor}`);

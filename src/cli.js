@@ -58,7 +58,7 @@ function print(plan) {
     if (h && h.tip) console.log(`   ${h.tip}`);
     for (const s of d.stops) {
       const o = s.option;
-      if (s.type === 'note') { console.log(`   ! return flight departs from ${s.city}`); continue; }
+      if (s.type === 'note') { console.log(s.noteKey === 'returnUnavailable' ? `   ! No return flight from ${s.city}; no connection to another departure city is verified. Adjust the route or dates.` : `   ! return flight departs from ${s.city}`); continue; }
       if (!o) { console.log(`   - ${s.type}: no flyai result`); continue; }
       if (s.type === 'flight' || s.type === 'train') console.log(`   - ${s.type === 'flight' ? '✈' : '🚄'} ${o.no} ${o.from} ${o.depTime} → ${o.to} ${o.arrTime}  ${price(o)}  ${o.url || ''}`);
       if (s.type === 'hotel') console.log(`   - 🏨 ${o.name} (${o.star || ''}) ${s.checkIn}~${s.checkOut}  ${price(o)}  ${o.url || ''}`);

@@ -102,6 +102,12 @@ function allocate(days, cities) {
 }
 
 async function buildPlan(intent, { onProgress = () => {} } = {}) {
+  if (!Array.isArray(intent.destinations) || !intent.destinations.length || intent.destinations.length > intent.days) {
+    const error = new Error('Allow at least one trip day per destination city. Increase the duration or choose fewer cities.');
+    error.statusCode = 400;
+    error.code = 'TOO_MANY_CITIES'; // the page shows its own wording for this code
+    throw error;
+  }
   const lang = intent.lang;
   const cities = intent.destinations;
   const alloc = allocate(intent.days, cities);
@@ -178,12 +184,9 @@ async function buildPlan(intent, { onProgress = () => {} } = {}) {
 
   const [outbound, ret, trains, hotels] = await Promise.all([outboundP, returnP, Promise.all(trainPs), Promise.all(hotelPs)]);
 
-  let returnRes = ret;
-  let returnFrom = lastCity;
-  if ((!ret.items || !ret.items.length) && lastCity !== cities[0]) {
-    returnRes = await q(`flight ${cities[0]}→${intent.origin} ${intent.endDate} (fallback)`, flyai.searchFlight({ origin: cities[0], destination: intent.origin, date: intent.endDate }));
-    returnFrom = cities[0];
-  }
+  // A flight from another city is not reachable unless a connecting journey is verified.
+  // Keep the final-city search result, even when empty; never invent that connection.
+  const returnRes = ret;
 
   const sources = [];
   const track = (r) => { if (r && r.meta) sources.push({ command: r.meta.command, args: r.meta.args, source: r.meta.source, fetchedAt: r.meta.fetchedAt, count: r.items.length, experienceMode: r.experienceMode, ok: r.ok, error: r.error }); };
@@ -255,7 +258,6 @@ async function buildPlan(intent, { onProgress = () => {} } = {}) {
     let nPoi = isFirst ? 1 : isMove ? 2 : 3;
     const rf = retFlights[0];
     if (isLast && !isFirst) nPoi = rf && hour(rf.dep) >= 15 ? 1 : 0;
-    if (isLast && returnFrom !== city) nPoi = 0;
     for (const p of takePois(ci, nPoi, isFirst ? 8 : null)) {
       const cs = [card('taxi', lang, { name: p.name, address: p.address, label: p.name })];
       if (!p.free && p.ticketName) cs.push(card('ticket', lang, { name: p.name, ticketName: p.ticketName, count, label: p.name }));
@@ -263,8 +265,8 @@ async function buildPlan(intent, { onProgress = () => {} } = {}) {
       stops.push({ id: `d${d}-${p.id}`, type: 'poi', option: p, cards: cs });
     }
     if (isLast) {
-      if (returnFrom !== city) {
-        stops.push({ id: `d${d}-note`, type: 'note', noteKey: 'returnFromFirst', city: returnFrom });
+      if (!rf) {
+        stops.push({ id: `d${d}-note`, type: 'note', noteKey: 'returnUnavailable', city });
       }
       stops.push({ id: `d${d}-flight`, type: 'flight', option: rf || null, alternatives: retFlights.slice(1, 4), missing: !rf, cards: rf ? [card('taxi', lang, { name: rf.from, label: rf.from })] : [] });
     }

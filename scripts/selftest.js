@@ -17,6 +17,16 @@ async function offlinePlan() {
   delete process.env.DASHSCOPE_API_KEY;
   delete process.env.DASHSCOPE_BASE_URL;
   const { ruleBased } = require('../src/intent');
+  const { parseDate, parseDays, isValidDate } = require('../src/intent');
+  assert.equal(parseDays('11月7日出発、4日間の上海旅行'), 4, 'departure day is not trip duration');
+  assert.equal(parseDays('11월 7일 출발, 3박4일'), 4);
+  assert.equal(parseDays('11月7日出発'), null);
+  assert.equal(parseDate('2026-02-31'), null);
+  assert.equal(parseDate('13月7日'), null);
+  assert.equal(isValidDate('2028-02-29'), true);
+  assert.equal(isValidDate('2026-02-29'), false);
+  assert.equal(ruleBased('Shanghai 4 days, 0 people').adults, 1);
+  assert.equal(ruleBased('Shanghai 4 days, 99 people').adults, 9);
   const intent = ruleBased(DEMO);
   assert.equal(intent.lang, 'ja');
   assert.equal(intent.origin, '东京');
@@ -24,6 +34,9 @@ async function offlinePlan() {
   assert.equal(intent.days, 4);
   assert.match(intent.startDate, /^\d{4}-11-07$/);
   const { buildPlan } = require('../src/planner');
+  let invalidQueries = 0;
+  await assert.rejects(() => buildPlan({ ...intent, days: 2, destinations: ['上海', '杭州', '北京', '西安'] }, { onProgress: () => { invalidQueries += 1; } }), /at least one trip day/);
+  assert.equal(invalidQueries, 0, 'invalid requests must not start provider queries');
   const plan = await buildPlan(intent);
   assert.equal(plan.days.length, 4);
   const opts = plan.days.flatMap((d) => d.stops).map((s) => s.option).filter(Boolean);
@@ -52,6 +65,14 @@ async function offlinePlan() {
   assert.equal(rankHotels(hotelsSeen, 'economy')[0].name, 'E');
   const onlyCheap = rankHotels([{ name: 'X', star: '经济型', price: '¥222' }, { name: 'Y', star: '经济型', price: '¥395' }], 'upscale');
   assert.deepEqual([onlyCheap[0].name, onlyCheap[0].inBudget], ['Y', false]); // nothing in budget: closest price, flagged
+  const { tipsFor } = require('../src/tips');
+  for (const lang of ['en', 'ja', 'ko', 'zh']) {
+    const registration = tipsFor(lang).find((tip) => tip.id === 'registration');
+    assert.equal(registration.checked, '2026-10-21');
+    assert.match(registration.sources[0].url, /c1806139/);
+    assert.doesNotMatch(registration.text, /24 hours of entry|入国後24時間|입국 후 24시간|入境后24小时/);
+    assert.equal(tipsFor(lang).find((tip) => tip.id === 'payment').checked, '2026-10-20');
+  }
   const { translatePhoto } = require('../src/photo');
   const photo = await translatePhoto({ imageDataUrl: 'data:image/jpeg;base64,AAAA', lang: 'ja' });
   assert.equal(photo.available, false);
@@ -69,6 +90,35 @@ async function offlinePlan() {
   assert.deepEqual(c1.candidates, []);
   assert.deepEqual(c1.items.map((x) => [x.zh, x.price]), [['茶托', '12']]);
   assert.equal(clean({ kind: 'dish', candidates: [{ zh: '炸糕' }] }).candidates.length, 1);
+  const flyai = require('../src/flyai');
+  const helpers = ['searchFlight', 'searchTrain', 'searchPoi', 'searchHotel'];
+  const original = Object.fromEntries(helpers.map((key) => [key, flyai[key]]));
+  try {
+    for (const failed of [false, true]) {
+      for (const key of helpers) flyai[key] = async (args) => ({ ok: !failed, items: [], error: failed ? 'mock provider business error' : undefined, meta: { command: key, args, source: 'fixture' } });
+      const empty = await buildPlan(intent);
+      assert.equal(empty.days.length, intent.days);
+      assert.equal(empty.totals.knownSum, 0);
+      assert.ok(empty.days[0].stops.some((stop) => stop.type === 'flight' && stop.missing));
+      assert.equal(empty.data.errors.length > 0, failed);
+    }
+    const requestedFlights = [];
+    flyai.searchFlight = async (args) => {
+      requestedFlights.push(args);
+      const items = args.origin === '上海' && args.destination === intent.origin ? [{ ticketPrice: '999', journeys: [{ segments: [{ depCityName: '上海', arrCityName: intent.origin, marketingTransportNo: 'UNREACHABLE' }] }] }] : [];
+      return { ok: true, items, meta: { command: 'search-flight', args, source: 'fixture' } };
+    };
+    const noReturn = await buildPlan(intent);
+    const last = noReturn.days.at(-1);
+    assert.ok(last.stops.some((stop) => stop.noteKey === 'returnUnavailable'));
+    assert.ok(last.stops.find((stop) => stop.type === 'flight').missing);
+    assert.equal(noReturn.totals.knownSum, 0);
+    assert.ok(!requestedFlights.some((args) => args.origin === '上海' && args.destination === intent.origin), 'must not substitute a first-city flight without a connection');
+    assert.ok(!JSON.stringify(noReturn.days).includes('UNREACHABLE'));
+    const sameCity = await buildPlan({ ...intent, destinations: ['上海'] });
+    assert.equal(sameCity.days.at(-1).stops.find((stop) => stop.type === 'flight').option.no, 'UNREACHABLE', 'a return from the actual final city remains valid');
+    assert.equal(sameCity.totals.knownSum, 999);
+  } finally { Object.assign(flyai, original); }
   console.log('offline plan ok', plan.days.length, 'days, known ¥' + plan.totals.knownSum);
 }
 
@@ -112,8 +162,12 @@ async function llmGuard() {
     assert.match(e.message, /\[redacted\]/);
     return true;
   });
+  global.fetch = async (_url, opts) => new Promise((_resolve, reject) => {
+    opts.signal.addEventListener('abort', () => reject(Object.assign(new Error('mock timeout'), { name: 'AbortError' })), { once: true });
+  });
+  await assert.rejects(() => llm.chat({ model: 'test', messages: [], timeoutMs: 5 }), { name: 'AbortError' });
   delete process.env.DASHSCOPE_API_KEY;
-  console.log('llm guard ok');
+  console.log('llm guard ok (including mocked network timeout)');
 }
 
 function httpOffline() {
@@ -139,6 +193,25 @@ function httpOffline() {
         assert.equal(res.status, 200);
         assert.equal(plan.days.length, 4);
         assert.equal(plan.narrative.source, 'template');
+        const shiftedResponse = await fetch('http://127.0.0.1:8791/api/plan', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: 'Tokyo to Shanghai, 4 days', lang: 'en', startDate: '2026-12-10' }) });
+        const shifted = await shiftedResponse.json();
+        assert.equal(shiftedResponse.status, 200);
+        assert.equal(shifted.intent.endDate, '2026-12-13');
+        assert.equal(shifted.days.at(-1).date, shifted.intent.endDate);
+        assert.ok(!shifted.intent.assumptions.includes('date_default'));
+        const invalidResponse = await fetch('http://127.0.0.1:8791/api/plan', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: DEMO, startDate: '2026-02-31' }) });
+        assert.equal(invalidResponse.status, 400);
+        for (const body of ['null', '[]', '{']) {
+          const response = await fetch('http://127.0.0.1:8791/api/plan', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body });
+          assert.equal(response.status, 400);
+        }
+        for (const requestPath of ['//[', '/%ZZ']) {
+          const statusCode = await new Promise((resolveStatus, rejectStatus) => {
+            require('node:http').get({ hostname: '127.0.0.1', port: 8791, path: requestPath }, (response) => { response.resume(); resolveStatus(response.statusCode); }).on('error', rejectStatus);
+          });
+          assert.equal(statusCode, 400, 'malformed URL must not crash the server');
+        }
+        assert.equal((await fetch('http://127.0.0.1:8791/api/status')).status, 200);
         console.log('offline http ok');
         clearTimeout(timer);
         child.kill();
@@ -302,5 +375,6 @@ function staticBuild() {
   await rateLimit();
   await sentinelPause();
   staticBuild();
+  require('node:child_process').execFileSync(process.execPath, ['scripts/photo-race-test.js'], { cwd: ROOT, stdio: 'inherit' });
   console.log('selftest ok');
 })().catch((e) => fail(e && e.message ? e.message : e));

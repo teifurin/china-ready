@@ -8,6 +8,7 @@ const CHECKED = '2026-10-20';
 const SRC = {
   mfaFaq: { title: '外交部 · 单方面免签政策常见问题解答 / FAQs on Visa-free Entry', url: 'https://www.mfa.gov.cn/wjbzwfwpt/kzx/tzgg/202511/t20251110_11749824.html' },
   nia240: { title: '国家移民管理局 · 过境免签政策 (NIA)', url: 'https://www.nia.gov.cn/n741440/n741577/c1731205/content.html' },
+  niaRegistration: { title: '国家移民管理局 · 网上办理外国人旅馆以外住宿登记政策解读 (2026-09-21)', url: 'https://www.nia.gov.cn/n741440/n741577/c1806139/content.html' },
   niaPress: { title: '国家移民管理局 · 放宽优化过境免签政策新闻发布会 (2024-12-17)', url: 'https://www.nia.gov.cn/n741435/n1194535/n1689182/index.html' },
   niaEn: { title: 'National Immigration Administration (English)', url: 'https://en.nia.gov.cn/' },
   govGuide: { title: 'english.gov.cn · Visit China guidelines', url: 'https://english.www.gov.cn/services/visitchina/641d29fec6d0f528699dc1df' },
@@ -35,12 +36,12 @@ const TIPS = [
     },
   },
   {
-    id: 'registration', kind: 'official', sources: [SRC.niaPress],
+    id: 'registration', kind: 'official', sources: [SRC.niaRegistration], checked: '2026-10-21',
     text: {
-      en: 'Accommodation registration: register within 24 hours of entry at your hotel (旅店) or the local police station. Keep your passport with you — hotels, trains and many attractions check it.',
-      ja: '宿泊登記：入国後24時間以内に宿泊先（ホテル）または派出所で登記が必要。パスポートは常に携帯を（ホテル・鉄道・多くの観光地で確認されます）。',
-      ko: '숙박 등록: 입국 후 24시간 이내 숙소(호텔) 또는 파출소에서 등록. 여권을 항상 지참하세요(호텔·기차·많은 관광지에서 확인).',
-      zh: '住宿登记：入境后24小时内在旅店或公安派出所办理住宿登记。请随身携带护照（酒店、火车及很多景区会查验）。',
+      en: 'Accommodation registration: hotels register their foreign guests. If you stay somewhere other than a hotel, you or your host must register with the local public security authority within 24 hours of checking in.',
+      ja: '宿泊登記：ホテルに泊まる場合はホテルが登記します。ホテル以外に泊まる場合は、宿泊開始から24時間以内に本人または宿泊先の提供者が所在地の公安機関で登記する必要があります。',
+      ko: '숙박 등록: 호텔에 머무르면 호텔이 등록합니다. 호텔 외의 장소에 머무르면 체크인 후 24시간 이내에 본인 또는 숙소 제공자가 관할 공안기관에 등록해야 합니다.',
+      zh: '住宿登记：在旅馆住宿的，由旅馆办理登记。在旅馆以外的其他住所住宿的，应当在入住后24小时内由本人或者留宿人向居住地的公安机关办理登记。',
     },
   },
   {
@@ -84,7 +85,7 @@ const TIPS = [
 
 function tipsFor(lang) {
   const L = ['en', 'ja', 'ko', 'zh'].includes(lang) ? lang : 'en';
-  return TIPS.map((t) => ({ id: t.id, kind: t.kind, text: t.text[L], sources: t.sources, checked: CHECKED }));
+  return TIPS.map((t) => ({ id: t.id, kind: t.kind, text: t.text[L], sources: t.sources, checked: t.checked || CHECKED }));
 }
 
 module.exports = { tipsFor };

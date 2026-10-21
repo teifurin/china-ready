@@ -4,7 +4,7 @@ require('./env').load();
 const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
-const { extract, BUDGET_NAMES } = require('./intent');
+const { extract, BUDGET_NAMES, addDays, isValidDate } = require('./intent');
 const { buildPlan } = require('./planner');
 const { translatePhoto } = require('./photo');
 const llm = require('./llm');
@@ -12,6 +12,7 @@ const flyai = require('./flyai');
 
 const PUB = path.join(__dirname, '..', 'public');
 const PORT = Number(process.env.PORT || 8787);
+const HOST = process.env.HOST || '127.0.0.1';
 const TYPES = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.json': 'application/json', '.txt': 'text/plain; charset=utf-8' };
 
 function redact(s) { return llm.redact(s).slice(0, 300); }
@@ -23,7 +24,13 @@ function body(req, limit = 15 * 1024 * 1024) {
   return new Promise((resolve, reject) => {
     let size = 0; const chunks = [];
     req.on('data', (c) => { size += c.length; if (size > limit) { reject(new Error('Body too large')); req.destroy(); } else chunks.push(c); });
-    req.on('end', () => { try { resolve(JSON.parse(Buffer.concat(chunks).toString('utf8') || '{}')); } catch (e) { reject(e); } });
+    req.on('end', () => {
+      try {
+        const value = JSON.parse(Buffer.concat(chunks).toString('utf8') || '{}');
+        if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('Body must be a JSON object');
+        resolve(value);
+      } catch (e) { e.statusCode = 400; reject(e); }
+    });
   });
 }
 
@@ -35,15 +42,20 @@ function status() {
 }
 
 const server = http.createServer(async (req, res) => {
-  const url = new URL(req.url, 'http://x');
   try {
+    const url = new URL(req.url, 'http://x');
     if (req.method === 'GET' && url.pathname === '/api/status') return send(res, 200, status());
     if (req.method === 'POST' && url.pathname === '/api/plan') {
       const b = await body(req);
       const text = String(b.text || '').slice(0, 2000);
       if (!text.trim()) return send(res, 400, { error: 'text is required' });
       const intent = await extract(text, ['ja', 'en', 'ko', 'zh'].includes(b.lang) ? b.lang : undefined);
-      if (b.startDate && /^\d{4}-\d{2}-\d{2}$/.test(b.startDate)) intent.startDate = b.startDate;
+      if (b.startDate !== undefined) {
+        if (!isValidDate(b.startDate)) return send(res, 400, { error: 'startDate must be a valid YYYY-MM-DD date' });
+        intent.startDate = b.startDate;
+        intent.endDate = addDays(intent.startDate, intent.days - 1);
+        intent.assumptions = intent.assumptions.filter((a) => a !== 'date_default');
+      }
       // a budget picked on the page beats one read from the sentence, and is no longer an assumption
       if (BUDGET_NAMES.includes(b.budget)) { intent.budget = b.budget; intent.assumptions = (intent.assumptions || []).filter((a) => a !== 'budget_default'); }
       if (b.stream) {
@@ -54,7 +66,7 @@ const server = http.createServer(async (req, res) => {
           plan.elapsedMs = Date.now() - t0;
           sse(res, 'result', plan);
         } catch (e) {
-          sse(res, 'error', { error: redact(e.message) });
+          sse(res, 'error', { error: redact(e.message), code: e.code });
         }
         return res.end();
       }
@@ -81,12 +93,12 @@ const server = http.createServer(async (req, res) => {
     res.writeHead(200, { 'Content-Type': TYPES[path.extname(file)] || 'application/octet-stream' });
     fs.createReadStream(file).pipe(res);
   } catch (e) {
-    if (!res.headersSent) send(res, 500, { error: redact(e.message) });
+    if (!res.headersSent) send(res, e.statusCode === 400 || e.code === 'ERR_INVALID_URL' || e instanceof URIError ? 400 : 500, { error: redact(e.message), code: e.code });
     else if (!res.writableEnded) res.end();
   }
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, HOST, () => {
   const s = status();
   console.log(`China Ready · 入境中国随身通  http://localhost:${PORT}`);
   const why = s.llm.blocked ? ` — ${s.llm.blocked}, not calling the model` : '';

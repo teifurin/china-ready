@@ -41,9 +41,18 @@ function addDays(dateStr, n) { const d = new Date(dateStr + 'T00:00:00'); d.setD
 const NUM = { 一: 1, 二: 2, 两: 2, 三: 3, 四: 4, 五: 5, 六: 6, 七: 7, 八: 8, 九: 9, 十: 10 };
 const EN_MONTH = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
 
+function isValidDate(value) {
+  if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const date = new Date(value + 'T00:00:00Z');
+  return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value;
+}
+
 function parseDate(text, today = new Date()) {
   let m = text.match(/(20\d\d)[-/.年](\d{1,2})[-/.月](\d{1,2})/);
-  if (m) return `${m[1]}-${pad(m[2])}-${pad(m[3])}`;
+  if (m) {
+    const date = `${m[1]}-${pad(m[2])}-${pad(m[3])}`;
+    return isValidDate(date) ? date : null;
+  }
   let mo, da;
   if ((m = text.match(/(\d{1,2})\s*(?:月|월)\s*(\d{1,2})\s*(?:日|号|號|일)?/))) { mo = +m[1]; da = +m[2]; }
   else if ((m = text.match(/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+(\d{1,2})/i))) { mo = EN_MONTH[m[1].toLowerCase()]; da = +m[2]; }
@@ -53,10 +62,13 @@ function parseDate(text, today = new Date()) {
   let y = today.getFullYear();
   const cand = new Date(y, mo - 1, da);
   if (cand < new Date(today.getFullYear(), today.getMonth(), today.getDate())) y += 1;
-  return `${y}-${pad(mo)}-${pad(da)}`;
+  const date = `${y}-${pad(mo)}-${pad(da)}`;
+  return isValidDate(date) ? date : null;
 }
 
 function parseDays(text) {
+  // Calendar dates are not trip durations (e.g. 11月7日 before 4日間).
+  text = text.replace(/(?:20\d\d[-/.年])?\d{1,2}\s*(?:月|월)\s*\d{1,2}\s*(?:日|号|號|일)?/g, ' ');
   let m = text.match(/(\d{1,2})\s*(?:日間|日间|天|日|days?|일|박)/i);
   if (m) {
     const n = +m[1];
@@ -99,7 +111,7 @@ function ruleBased(text, langHint) {
   if (!named) assumptions.push('budget_default');
   return {
     lang, origin, destinations: dests.slice(0, 4), days, startDate,
-    endDate: addDays(startDate, days - 1), adults: parseAdults(text),
+    endDate: addDays(startDate, days - 1), adults: Math.min(9, Math.max(1, parseAdults(text))),
     interests: [...new Set(interests)].slice(0, 3), budget: named ? named.budget : 'standard', assumptions, extractor: 'rule-based (mock, no LLM)',
   };
 }
@@ -142,7 +154,7 @@ User text: """${text.slice(0, 2000)}"""`;
     }
     if (dests.length) { out.destinations = dests.slice(0, 4); out.assumptions = out.assumptions.filter((a) => a !== 'dest_default'); }
     if (Number.isInteger(content.days) && content.days >= 2 && content.days <= 10) { out.days = content.days; out.assumptions = out.assumptions.filter((a) => a !== 'days_default'); }
-    if (typeof content.startDate === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(content.startDate)) { out.startDate = content.startDate; out.assumptions = out.assumptions.filter((a) => a !== 'date_default'); }
+    if (isValidDate(content.startDate)) { out.startDate = content.startDate; out.assumptions = out.assumptions.filter((a) => a !== 'date_default'); }
     if (Number.isInteger(content.adults) && content.adults > 0 && content.adults < 10) out.adults = content.adults;
     if (Array.isArray(content.interests)) out.interests = content.interests.filter((c) => CATEGORY_HINTS.some((h) => h.cat === c)).slice(0, 3);
     if (BUDGET_NAMES.includes(content.budget)) { out.budget = content.budget; out.assumptions = out.assumptions.filter((a) => a !== 'budget_default'); }
@@ -154,4 +166,4 @@ User text: """${text.slice(0, 2000)}"""`;
   }
 }
 
-module.exports = { extract, ruleBased, detectLang, parseDate, parseDays, addDays, byZh, BUDGET_NAMES };
+module.exports = { extract, ruleBased, detectLang, parseDate, parseDays, isValidDate, addDays, byZh, BUDGET_NAMES };

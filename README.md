@@ -77,6 +77,7 @@ npm run preview:static
 | `FLYAI_CACHE_TTL_SEC` | 飞猪结果的缓存秒数，默认 `1800`。 |
 | `MOCK_LLM=1`、`FLYAI_OFFLINE=1` | 不调用百炼；只回放 `fixtures/flyai/`。 |
 | `PORT` | 默认 `8787`。 |
+| `HOST` | 默认 `127.0.0.1`，仅本机可访问。需要局域网访问时可显式设为 `0.0.0.0`；接口没有身份认证，不要直接暴露到公网，否则他人可能使用你的付费 API。 |
 
 ## 截图
 
